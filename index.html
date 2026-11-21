@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#1f3b2d">
-<meta name="description" content="Reisvoorstel van Riksja Travel: rondreis door Canada en Amerika, van Toronto naar New York, 10–30 juli 2027.">
-<title>Canada & Amerika 2027 · Riksja</title>
+<meta name="theme-color" content="#0e1116">
+<meta name="description" content="Reisvoorstel: rondreis door Canada en Amerika, van Toronto naar New York, 10–30 juli 2027.">
+<title>Canada & Amerika 2027</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 <a class="skip-link" href="#dagen">Direct naar het dagprogramma</a>
@@ -34,7 +34,7 @@
     <div class="hero-slides" id="heroSlides" aria-hidden="true"></div>
     <div class="hero-shade" aria-hidden="true"></div>
     <div class="hero-content">
-      <p class="eyebrow light"><span data-trip-text="dateRange"></span> · Reisvoorstel Riksja Travel</p>
+      <p class="eyebrow light"><span data-trip-text="dateRange"></span> · Reisvoorstel</p>
       <h1><span data-trip-text="heroFirst"></span> <em>&</em><br><span data-trip-text="heroLast"></span></h1>
       <p class="hero-sub" data-trip-text="heroDescription"></p>
       <div class="countdown" id="countdown" aria-live="polite"></div>
@@ -129,7 +129,7 @@
     <div class="section-wrap">
       <div class="section-heading">
         <div><p class="eyebrow">05 · Vluchten & reisschema</p><h2>Het voorstel <em>in het kort</em></h2></div>
-        <p>De vluchten en het volledige reisschema zoals in het voorstel van Riksja Travel.</p>
+        <p>De vluchten en het volledige reisschema zoals in het reisvoorstel.</p>
       </div>
       <div class="flight-cards" id="flightCards"></div>
       <ul class="flight-notes" id="flightNotes"></ul>
@@ -146,18 +146,11 @@
       <div class="attention" id="attention"></div>
       <div class="practical-bottom">
         <p data-trip-text="notice"></p>
-        <p>Riksja-pagina's: <span class="source-links" id="sourceLinks"></span></p>
+        <p>Meer informatie: <span class="source-links" id="sourceLinks"></span></p>
       </div>
     </div>
   </section>
 
-  <section id="riksja" class="agency section-wrap">
-    <div class="section-heading">
-      <div><p class="eyebrow">07 · Riksja Travel</p><h2>Over <em>de reisorganisatie</em></h2></div>
-      <div class="contact-card" id="contactCard"></div>
-    </div>
-    <div class="agency-grid" id="agencyGrid"></div>
-  </section>
 
   <footer>
     <p class="footer-title">Op naar <em>het avontuur.</em></p>
@@ -173,6 +166,6 @@
 
 <noscript><p class="section-wrap note">Schakel JavaScript in om het dagprogramma en de verblijven te bekijken.</p></noscript>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

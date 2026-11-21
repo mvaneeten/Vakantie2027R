@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
   "trip": {
-    "title": "Canada & Amerika 2027 · Riksja",
+    "title": "Canada & Amerika 2027",
     "startDate": "2027-07-10",
     "endDate": "2027-07-30",
     "returnFlightDate": "2027-07-29",
     "travelers": 4,
     "travelerDescription": "4 volwassenen",
     "currency": "EUR",
-    "status": "Reisvoorstel van Riksja Travel; nog niet geboekt",
+    "status": "Reisvoorstel · nog niet geboekt",
     "heroTitle": [
       "Canada",
       "Amerika"
     ],
     "heroDescription": "Een roadtrip van Toronto via Niagara Falls, de Thousand Islands en Montréal naar de White Mountains, de kust van Maine, Cape Cod, Boston en New York.",
-    "intro": "Het reisvoorstel van Riksja Travel: 21 dagen en 20 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
-    "agency": "Riksja Travel Amerika",
-    "notice": "Dit is een reisvoorstel van Riksja Travel, nog geen boeking. Vluchttijden zijn onder voorbehoud. De luchtvaartmaatschappij heeft het recht om tijden en vluchtnummers zonder overleg aan te passen; vóór vertrek ontvang je een up-to-date reisschema.",
+    "intro": "Het reisvoorstel: 21 dagen en 20 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
+    "notice": "Dit is een reisvoorstel, nog geen boeking. Vluchttijden zijn onder voorbehoud. De luchtvaartmaatschappij heeft het recht om tijden en vluchtnummers zonder overleg aan te passen; vóór vertrek ontvang je een up-to-date reisschema.",
     "photoNotice": "Sfeerbeelden van Wikimedia Commons; het zijn geen foto’s van de geboekte hotels.",
-    "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Riksja werkt met een poultje van zelf bezochte hotels. Voor 4 personen reserveert Riksja twee keer een tweepersoonskamer; heb je een voorkeur voor aparte bedden, geef dit dan door."
+    "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Voor 4 personen worden twee tweepersoonskamers gereserveerd; heb je een voorkeur voor aparte bedden, geef dit dan door."
   },
   "route": {
     "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Montreal,+Quebec/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
@@ -128,7 +127,7 @@
       },
       "photo": "airstream",
       "hotel": "Airstreamer op een glamping bij Falmouth",
-      "hotelDescription": "Een iconische Airstreamer op een glamping bij Falmouth: knus, met airconditioning, een zithoek met slaapbank, kitchenette en privébadkamer met douche en toilet. Met een groter gezin boekt Riksja twee Airstreamers. Er is een restaurant en je kunt gratis fietsen gebruiken.",
+      "hotelDescription": "Een iconische Airstreamer op een glamping bij Falmouth: knus, met airconditioning, een zithoek met slaapbank, kitchenette en privébadkamer met douche en toilet. Met een groter gezin worden twee Airstreamers geboekt. Er is een restaurant en je kunt gratis fietsen gebruiken.",
       "included": "Overnachting in Airstreamer (exclusief resortfee, ter plaatse te betalen)"
     },
     {
@@ -202,12 +201,12 @@
       "desc": "Vandaag leer je de stad beter kennen tijdens een boottocht op het Lake Ontario. Vanaf hier kun je genieten van de skyline met de beroemde CN Tower.",
       "todo": [
         "Boottocht op Lake Ontario (inbegrepen)",
-        "CN Tower (kaartjes via Riksja op aanvraag)",
+        "CN Tower (kaartjes op aanvraag)",
         "Avond in het theater district"
       ],
       "stop": 0,
       "night": "2/2",
-      "notes": "Als je de CN Tower wilt beklimmen dan kan Riksja de kaartjes regelen. Toronto is ook bekend om zijn theater district: elke avond zijn er verschillende voorstellingen en veel musicals die ook op Broadway draaien hadden hier hun wereldpremière.",
+      "notes": "Als je de CN Tower wilt beklimmen, kunnen de kaartjes vooraf geregeld worden. Toronto is ook bekend om zijn theater district: elke avond zijn er verschillende voorstellingen en veel musicals die ook op Broadway draaien hadden hier hun wereldpremière.",
       "bouwsteen": {
         "title": "Wereldstart Toronto",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/toronto/"
@@ -330,7 +329,7 @@
       "loc": "Montréal",
       "travel": "Stadsdag op de fiets",
       "transport": null,
-      "desc": "Riksja regelt een leuke fietstocht samen met een lokale enthousiaste gast door het veelzijdige Montréal. Je bezoekt de oude stad met de basiliek van Notre Dame, waterkant maar ook de andere kleurrijke wijken. De gids weet veel te vertellen over de stad maar ook over de geschiedenis van Québec.",
+      "desc": "Er staat een leuke fietstocht gepland samen met een lokale enthousiaste gast door het veelzijdige Montréal. Je bezoekt de oude stad met de basiliek van Notre Dame, waterkant maar ook de andere kleurrijke wijken. De gids weet veel te vertellen over de stad maar ook over de geschiedenis van Québec.",
       "todo": [
         "Fietstour met lokale gids, start na de lunch (ca. 3 uur)",
         "Bagel met creamcheese als afsluiter",
@@ -389,7 +388,7 @@
       ],
       "stop": 4,
       "night": "2/2",
-      "notes": "Riksja kan deze tocht niet voor je boeken, maar dit kun je gemakkelijk zelf via internet of ter plaatse regelen. Het ontbijt in de Inn is inbegrepen.",
+      "notes": "Deze tocht zit niet in het voorstel; je boekt hem gemakkelijk zelf via internet of ter plaatse. Het ontbijt in de Inn is inbegrepen.",
       "bouwsteen": {
         "title": "New Hampshire: White Mountains",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
@@ -440,7 +439,7 @@
       ],
       "stop": 5,
       "night": "2/2",
-      "notes": "Vanaf Mount Cadillac kijk je uit over het park en de oceaan. In de zomer is het druk; neem de gratis shuttle of reserveer van tevoren een plekje op de weg naar de top. Picknick met uitzicht, of zoek een rustige plek bij een waterval. Tip: blijf je wat langer, dan kan Riksja een boottocht van twee uur met de lokale kreeftenboot inplannen.",
+      "notes": "Vanaf Mount Cadillac kijk je uit over het park en de oceaan. In de zomer is het druk; neem de gratis shuttle of reserveer van tevoren een plekje op de weg naar de top. Picknick met uitzicht, of zoek een rustige plek bij een waterval. Tip: blijf je wat langer, dan kan er een boottocht van twee uur met de lokale kreeftenboot worden ingepland.",
       "bouwsteen": {
         "title": "Acadia National Park (Maine)",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/acadia-national-park/"
@@ -491,7 +490,7 @@
       ],
       "stop": 6,
       "night": "2/2",
-      "notes": "Onze tip: geniet van het zicht en maak niet te veel foto’s, want het gaat zo voorbij. Draag een warme trui of jas, het kan koel zijn op zee. De vertrektijd hangt af van het getij; Riksja boekt meestal in de ochtend (rond 09.30 uur), maar een middagvertrek (rond 15.00 uur) kan ook.",
+      "notes": "Onze tip: geniet van het zicht en maak niet te veel foto’s, want het gaat zo voorbij. Draag een warme trui of jas, het kan koel zijn op zee. De vertrektijd hangt af van het getij; de tour wordt meestal in de ochtend geboekt (rond 09.30 uur), maar een middagvertrek (rond 15.00 uur) kan ook.",
       "bouwsteen": {
         "title": "Cape Cod",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/cape-cod/"
@@ -534,7 +533,7 @@
       "loc": "Boston",
       "travel": "Wandeldag in de stad",
       "transport": null,
-      "desc": "Op de tweede dag in Boston regelt Riksja een bijzondere stadstour. Op eigen gelegenheid ga je naar het startpunt waar een gids in klederdracht op je wacht. De gids neemt je mee langs de Freedom Trail die je, letterlijk en figuurlijk, als een rode lijn door de stad voert.",
+      "desc": "Op de tweede dag in Boston staat een bijzondere stadstour gepland. Op eigen gelegenheid ga je naar het startpunt waar een gids in klederdracht op je wacht. De gids neemt je mee langs de Freedom Trail die je, letterlijk en figuurlijk, als een rode lijn door de stad voert.",
       "todo": [
         "Freedom Trail met gids in klederdracht (inbegrepen)",
         "Uitrusten in de Public Garden",
@@ -542,7 +541,7 @@
       ],
       "stop": 7,
       "night": "2/2",
-      "notes": "Laat je meeslepen door de verhalen over vervlogen tijden. Wil je Boston op een bijzondere manier zien? Stap aan boord van een amfibievoertuig en bekijk de stad vanaf het land en het water; vraag de reisspecialist om deze excursie toe te voegen.",
+      "notes": "Laat je meeslepen door de verhalen over vervlogen tijden. Wil je Boston op een bijzondere manier zien? Stap aan boord van een amfibievoertuig en bekijk de stad vanaf het land en het water; deze excursie kan aan de reis worden toegevoegd.",
       "bouwsteen": {
         "title": "Geschiedenisles in Boston",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/boston/"
@@ -588,7 +587,7 @@
       "desc": "Je hebt genoeg tijd om zelf de stad te ontdekken. De metro is de snelste manier om tussen de verschillende wijken en bezienswaardigheden te reizen. Ga New York vooral vanaf boven bekijken vanuit het Empire State Building, Top of the Rock of de Freedom Tower.",
       "todo": [
         "Empire State Building",
-        "Top of the Rock (cadeau bij boeken vóór 1 december 2026)",
+        "Top of the Rock",
         "Freedom Tower"
       ],
       "stop": 8,
@@ -615,7 +614,7 @@
       ],
       "stop": 8,
       "night": "3/4",
-      "notes": "Tip: Riksja kan een fietstour langs de highlights van de stad regelen voor een goede eerste indruk. Laat het weten als je die wilt toevoegen.",
+      "notes": "Tip: een fietstour langs de highlights van de stad kan aan de reis worden toegevoegd, voor een goede eerste indruk.",
       "bouwsteen": {
         "title": "New York door de ogen van een Yankee",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
@@ -637,7 +636,7 @@
       ],
       "stop": 8,
       "night": "4/4",
-      "notes": "Benieuwd naar meer tips? Riksja heeft een New York blog met tips voor de stad.",
+      "notes": "Plan vooraf een beetje wat je nog wilt zien, dan haal je het meeste uit de laatste volle dag.",
       "bouwsteen": {
         "title": "New York door de ogen van een Yankee",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
@@ -666,7 +665,7 @@
       ],
       "stop": null,
       "night": null,
-      "notes": "Let op: in het vluchtschema van het voorstel staat 29-08-2027 als datum voor de terugvlucht, terwijl het reisschema 29 juli aangeeft. Vraag Riksja dit te bevestigen.",
+      "notes": "Let op: in het vluchtschema van het voorstel staat 29-08-2027 als datum voor de terugvlucht, terwijl het reisschema 29 juli aangeeft. Laat dit bevestigen voordat je boekt.",
       "bouwsteen": null,
       "photo": "brooklyn"
     },
@@ -857,9 +856,9 @@
   ],
   "flightNotes": [
     "De internationale retourvlucht is niet inbegrepen in het landarrangement. Alle vluchten worden uitgevoerd in economy class.",
-    "Boek je de vluchten via Riksja, dan boek je een pakketreis: landarrangement en vluchten sluiten op elkaar aan en je bent dankzij de Europese richtlijnen extra beschermd tegen financiële risico’s en problemen ter plaatse.",
-    "Bagage is inbegrepen volgens de voorwaarden van de luchtvaartmaatschappij. Vluchten die je via Riksja boekt worden CO2-gecompenseerd.",
-    "Tip: neem een optie! Op deze vluchten zijn niet veel stoelen meer beschikbaar. Een optie is vrijblijvend; Riksja heeft daarvoor van alle reizigers de eerste voornaam en achternaam (precies zoals in het paspoort), geslacht en geboortedatum nodig."
+    "Boek je de vluchten samen met het landarrangement, dan boek je een pakketreis: landarrangement en vluchten sluiten op elkaar aan en je bent dankzij de Europese richtlijnen extra beschermd tegen financiële risico’s en problemen ter plaatse.",
+    "Bagage is inbegrepen volgens de voorwaarden van de luchtvaartmaatschappij. De vluchten in het voorstel worden CO2-gecompenseerd.",
+    "Tip: neem een optie! Op deze vluchten zijn niet veel stoelen meer beschikbaar. Een optie is vrijblijvend; daarvoor zijn van alle reizigers de eerste voornaam en achternaam (precies zoals in het paspoort), geslacht en geboortedatum nodig."
   ],
   "practical": [
     {
@@ -890,7 +889,7 @@
     {
       "icon": "🛏️",
       "title": "Kamers",
-      "description": "Voor 4 personen reserveert Riksja twee keer een tweepersoonskamer. Voorkeur voor een kamer met aparte bedden? Geef het door."
+      "description": "Voor 4 personen worden twee tweepersoonskamers gereserveerd. Voorkeur voor een kamer met aparte bedden? Geef het door."
     },
     {
       "icon": "🌲",
@@ -903,24 +902,9 @@
       "description": "In veel Amerikaanse hotels worden verplichte resortfees gerekend voor bijvoorbeeld wifi of het zwembad. Volgens het voorstel zijn deze al inbegrepen, met uitzondering van de resortfee bij de Airstreamer op Cape Cod."
     },
     {
-      "icon": "🎁",
-      "title": "Riksja’s Wereldweken",
-      "description": "Boek vóór 1 december 2026 en ontvang een upgrade of belevenis cadeau. Voor Amerika is dit een Top of the Rock admission in New York."
-    },
-    {
       "icon": "💳",
       "title": "Geld",
       "description": "Bij aankomst kun je op de luchthaven pinnen of wisselen. In alle steden en op de luchthavens kun je pinnen; grote hoeveelheden contant geld zijn niet nodig."
-    },
-    {
-      "icon": "🤝",
-      "title": "Onbezorgd op reis",
-      "description": "Riksja is aangesloten bij de ANVR en het Calamiteitenfonds. Bij een pakketreis ben je verzekerd van professionele hulp en repatriëring als de situatie daarom vraagt."
-    },
-    {
-      "icon": "🌍",
-      "title": "CO2-compensatie",
-      "description": "De reis wordt gratis CO2-gecompenseerd. Riksja doet dit sinds 2024 via een eigen Cooking stove-fabriek in Nepal (Chitwan), voor betere luchtkwaliteit en werkgelegenheid."
     }
   ],
   "attention": [
@@ -930,59 +914,6 @@
     "De hotelnamen staan nog niet in het voorstel.",
     "De tekst bij de terugvlucht spreekt van afscheid van Canada, maar je vliegt terug vanaf Newark (New York)."
   ],
-  "agency": {
-    "why": [
-      {
-        "title": "Waarom Riksja Amerika?",
-        "text": "Riksja laat je de highlights zien, maar ook de onbekende plekken. De specialisten reizen zelf veelvuldig naar de bestemming en hebben zelf in alle kleinschalige en lokaal gerunde hotels geslapen. Samen met lokale partners zijn de activiteiten geselecteerd en logische routes uitgestippeld."
-      },
-      {
-        "title": "Hoe reis je?",
-        "text": "Met een eigen huurauto, zodat je de route zelf bepaalt. Riksja werkt alleen met verhuurmaatschappijen met goede service en je gaat volledig verzekerd op reis. Vooraf ontvang je route-informatie met tips; tijdens de reis kun je contact opnemen met de lokale agent."
-      },
-      {
-        "title": "Hoe beleef je?",
-        "text": "In comfortabele, zelf bezochte hotels, vooral gekozen op ligging. De beschikbaarheid is klein, daarom werkt Riksja met een poultje van hotels. Excursies worden vooraf geregeld, zodat je altijd een plek hebt."
-      },
-      {
-        "title": "Reis met hart voor de wereld",
-        "text": "Riksja Travel is B Corp™ en zet zich al meer dan 25 jaar in voor een eerlijke wereld. Doel: 85% van het geld van de landarrangementen komt lokaal terecht, met eerlijke lonen en goede werkomstandigheden."
-      },
-      {
-        "title": "Kom langs op kantoor",
-        "text": "In het reiscafé in Leiden bespreek je het reisplan rustig en in detail met je eigen reisspecialist: persoonlijk advies, al je vragen en eenvoudig boeken op één plek."
-      }
-    ],
-    "contact": {
-      "name": "Sophie",
-      "company": "Riksja Travel Amerika",
-      "phone": "+31 (0)71 891 01 28",
-      "email": "amerika@riksjatravel.nl",
-      "web": "https://www.riksjatravel.nl/amerika/"
-    },
-    "links": [
-      {
-        "title": "Bouwstenen Amerika",
-        "url": "https://www.riksjatravel.nl/amerika/bouwstenen/"
-      },
-      {
-        "title": "Bouwstenen Canada",
-        "url": "https://www.riksjatravel.nl/canada/bouwstenen/"
-      },
-      {
-        "title": "Auto huren in Amerika",
-        "url": "https://www.riksjatravel.nl/amerika/informatie/auto-huren/"
-      },
-      {
-        "title": "Auto huren in Canada",
-        "url": "https://www.riksjatravel.nl/canada/informatie/auto-huren/"
-      },
-      {
-        "title": "Riksja Travel B Corp",
-        "url": "https://www.riksjatravel.nl/b-corp/"
-      }
-    ]
-  },
   "photos": {
     "toronto-sunset": {
       "path": "3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
@@ -1180,5 +1111,15 @@
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File:Old_State_House,_Boston.jpg"
     }
-  }
+  },
+  "moreInfo": [
+    {
+      "title": "Alle onderdelen in Noordoost-Amerika",
+      "url": "https://www.riksjatravel.nl/amerika/bouwstenen/"
+    },
+    {
+      "title": "Alle onderdelen in Oost-Canada",
+      "url": "https://www.riksjatravel.nl/canada/bouwstenen/"
+    }
+  ]
 }

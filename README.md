@@ -1,6 +1,6 @@
-# Canada & Amerika 2027 · Riksja
+# Canada & Amerika 2027
 
-Website van het reisvoorstel van Riksja Travel: rondreis van Toronto naar New York, 10–30 juli 2027, 4 volwassenen.
+Website van een reisvoorstel: rondreis van Toronto naar New York, 10–30 juli 2027, 4 volwassenen.
 20 nachten (19 hotelnachten en de nachtvlucht terug).
 
 Live: https://mvaneeten.github.io/Vakantie2027R/
@@ -8,11 +8,11 @@ Live: https://mvaneeten.github.io/Vakantie2027R/
 ## Onderdelen
 
 - Kalender "Waar zijn we wanneer?" met per dag de plek en de reistijd, plus een overzicht van alle reistijden tussen de plaatsen.
-- Dag voor dag: foto, reistijd, programma, tips, het verblijf van die nacht en de link naar de Riksja-bouwsteen.
+- Dag voor dag: foto, reistijd, programma, tips, het verblijf van die nacht en een link "Meer over …" met informatie over dat onderdeel.
 - Kaart (OpenStreetMap) met de autoroute en de treinreis Boston → New York.
 - Verblijven: per stop de in- en uitcheckdatum, het type hotel en wat er inbegrepen is.
 - Vluchten en het volledige reisschema ("Jouw reis in het kort").
-- Praktische informatie, punten om na te vragen bij Riksja, en informatie over Riksja Travel.
+- Praktische informatie en punten om nog na te vragen.
 
 ## Bestanden
 
@@ -31,8 +31,7 @@ Rechtstreeks openen van index.html werkt niet, omdat de browser dan vakantie.jso
 
 ## Bronnen
 
-- Reisvoorstel Riksja Travel (pdf), opgesteld door Sophie, amerika@riksjatravel.nl.
-- Bouwstenen: https://www.riksjatravel.nl/amerika/bouwstenen/ en https://www.riksjatravel.nl/canada/bouwstenen/
+- Het reisvoorstel (pdf).
 - Rijtijden: berekend via OpenStreetMap (OSRM), zonder pauzes en verkeer. Vlucht- en treintijden komen uit het voorstel.
 - Foto's: Wikimedia Commons; maker en licentie staan bij elke foto en onderaan de site.
 

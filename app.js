@@ -1,4 +1,4 @@
-const STOP_COLORS = ['#c4532a', '#d99a2b', '#7d8f3a', '#2f6b4f', '#2f6f73', '#41658a', '#7a4f7d', '#a8442f', '#1f3b2d'];
+const STOP_COLORS = ['#ea4a1f', '#d97706', '#65a30d', '#059669', '#0891b2', '#2563eb', '#7c3aed', '#db2777', '#0e1116'];
 const MODE = {auto: {icon: '🚗', label: 'Huurauto'}, trein: {icon: '🚆', label: 'Trein'}, vlucht: {icon: '✈', label: 'Vliegtuig'}};
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const commonsUrl = (path, width) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${path}/${width}px-${path.split('/').pop()}`;
@@ -12,7 +12,7 @@ function photoCredit(data, key) {
   const p = data.photos[key];
   return `<a href="${esc(p.page)}" target="_blank" rel="noopener">Foto: ${esc(p.credit)} · ${esc(p.license)}</a>`;
 }
-const bouwsteenLink = (b, cls = 'bouwsteen-link') => b ? `<a class="${cls}" href="${esc(b.url)}" target="_blank" rel="noopener">Bouwsteen: ${esc(b.title)} ↗</a>` : '';
+const bouwsteenLink = (b, cls = 'bouwsteen-link') => b ? `<a class="${cls}" href="${esc(b.url)}" target="_blank" rel="noopener">Meer over ${esc(b.title)} ↗</a>` : '';
 
 function renderVacation(data) {
   validateVacation(data);
@@ -298,14 +298,10 @@ function renderVacation(data) {
     + data.schedule.map(([name, from, to, nights, incl]) => `<tr><td>${esc(name)}</td><td>${shortDate(from)}</td><td>${shortDate(to)}</td><td>${esc(nights)}</td><td>${esc(incl)}</td></tr>`).join('')
     + `</tbody><tfoot><tr><td>Totaal</td><td>${shortDate(trip.startDate)}</td><td>${shortDate(trip.endDate)}</td><td>${days.length - 1}</td><td></td></tr></tfoot>`;
 
-  // Practical, attention points, agency and credits
+  // Practical, attention points and credits
   document.getElementById('practicalGrid').innerHTML = data.practical.map(p => `<article><div class="pict">${esc(p.icon)}</div><h3>${esc(p.title)}</h3><p>${esc(p.description)}</p></article>`).join('');
-  document.getElementById('attention').innerHTML = `<h3>Nog na te vragen bij Riksja</h3><ul>${data.attention.map(a => `<li>${esc(a)}</li>`).join('')}</ul>`;
-  document.getElementById('sourceLinks').innerHTML = data.agency.links.map(s => `<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a>`).join(' · ');
-  const ct = data.agency.contact;
-  document.getElementById('contactCard').innerHTML = `<small>Jouw reisspecialist</small><b>${esc(ct.name)} · ${esc(ct.company)}</b>
-    <a href="tel:${esc(ct.phone.replace(/[^\d+]/g, '').replace('+310', '+31'))}">${esc(ct.phone)}</a><a href="mailto:${esc(ct.email)}">${esc(ct.email)}</a><a href="${esc(ct.web)}" target="_blank" rel="noopener">${esc(ct.web.replace(/^https:\/\/(www\.)?/, ''))}</a>`;
-  document.getElementById('agencyGrid').innerHTML = data.agency.why.map(w => `<article><h3>${esc(w.title)}</h3><p>${esc(w.text)}</p></article>`).join('');
+  document.getElementById('attention').innerHTML = `<h3>Nog na te vragen</h3><ul>${data.attention.map(a => `<li>${esc(a)}</li>`).join('')}</ul>`;
+  document.getElementById('sourceLinks').innerHTML = data.moreInfo.map(s => `<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a>`).join(' · ');
   document.getElementById('photoCredits').innerHTML = Object.values(data.photos).map(p => `<li>${esc(p.caption)}: <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.credit)}</a>, ${esc(p.license)}</li>`).join('');
 
   document.getElementById('dataStatus').hidden = true;
@@ -318,7 +314,7 @@ addEventListener('scroll', onScroll, {passive: true});
 onScroll();
 
 function validateVacation(data) {
-  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.flights) || !Array.isArray(data.schedule) || !Array.isArray(data.practical) || !data.agency || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
+  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.flights) || !Array.isArray(data.schedule) || !Array.isArray(data.practical) || !Array.isArray(data.moreInfo) || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
   const iso = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value + 'T00:00:00Z'));
   if (!iso(data.trip.startDate) || !iso(data.trip.endDate) || !Number.isInteger(data.trip.travelers) || data.trip.travelers < 1) throw new Error('Controleer de reisdatums en het aantal reizigers.');
   const expectedDays = (Date.parse(data.trip.endDate) - Date.parse(data.trip.startDate)) / 86400000 + 1;
