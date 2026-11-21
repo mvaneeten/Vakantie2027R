@@ -35,3 +35,7 @@ Rechtstreeks openen van index.html werkt niet, omdat de browser dan vakantie.jso
 - Bouwstenen: https://www.riksjatravel.nl/amerika/bouwstenen/ en https://www.riksjatravel.nl/canada/bouwstenen/
 - Rijtijden: berekend via OpenStreetMap (OSRM), zonder pauzes en verkeer. Vlucht- en treintijden komen uit het voorstel.
 - Foto's: Wikimedia Commons; maker en licentie staan bij elke foto en onderaan de site.
+
+## Na een wijziging
+
+Verhoog het versienummer `?v=` achter `styles.css` en `app.js` in index.html als je die bestanden aanpast. Anders kunnen browsers nog tot 10 minuten de oude versie gebruiken naast een nieuwe vakantie.json.
