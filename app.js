@@ -1,4 +1,4 @@
-const STOP_COLORS = ['#ea4a1f', '#d97706', '#65a30d', '#059669', '#0891b2', '#2563eb', '#7c3aed', '#db2777', '#0e1116'];
+const STOP_COLORS = ['#ff6a3d', '#ffb020', '#a3e635', '#34d399', '#22d3ee', '#60a5fa', '#a78bfa', '#f472b6', '#e5e7eb'];
 const MODE = {auto: {icon: '🚗', label: 'Huurauto'}, trein: {icon: '🚆', label: 'Trein'}, vlucht: {icon: '✈', label: 'Vliegtuig'}};
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const commonsUrl = (path, width) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${path}/${width}px-${path.split('/').pop()}`;
@@ -53,7 +53,8 @@ function renderVacation(data) {
   showSlide(0);
   clearInterval(window.heroTimer);
   if (!matchMedia('(prefers-reduced-motion: reduce)').matches) window.heroTimer = setInterval(() => showSlide((slide + 1) % stops.length), 6500);
-  document.getElementById('routeSummary').innerHTML = stops.map((s, i) => `<span>${esc(s.name)}</span>${i < stops.length - 1 ? '<i>✦</i>' : ''}`).join('');
+  const marqueeItems = stops.map(s => `<span>${esc(s.name)}</span><i>✦</i>`).join('');
+  document.getElementById('routeSummary').innerHTML = marqueeItems + marqueeItems;
 
   const start = utc(trip.startDate), end = utc(trip.endDate);
   const now = new Date();
@@ -232,8 +233,8 @@ function renderVacation(data) {
     }).addTo(map).on('tileerror', () => { document.getElementById('mapStatus').textContent = 'Kaartachtergrond niet geladen. Gebruik de lijst of de Google Maps-link.'; });
     const points = stops.map(s => [s.lat, s.lon]);
     const lastCar = stops.length - 1;
-    L.polyline(points.slice(0, lastCar), {color: '#1f6fb2', weight: 4, opacity: .9, dashArray: '2,9', lineCap: 'round'}).addTo(map);
-    L.polyline(points.slice(lastCar - 1), {color: '#7b5ea7', weight: 4, opacity: .9, dashArray: '10,8'}).addTo(map).bindTooltip('Trein Boston → New York');
+    L.polyline(points.slice(0, lastCar), {color: '#ff6a3d', weight: 4, opacity: .95, dashArray: '2,9', lineCap: 'round'}).addTo(map);
+    L.polyline(points.slice(lastCar - 1), {color: '#a78bfa', weight: 4, opacity: .95, dashArray: '10,8'}).addTo(map).bindTooltip('Trein Boston → New York');
     stops.forEach((s, i) => markers.push(L.marker([s.lat, s.lon], {
       title: `${i + 1}. ${s.name}`, alt: s.name,
       icon: L.divIcon({className: '', html: `<div class="map-label" style="--c:${color(i)}">${i + 1}</div>`, iconSize: [30, 30], iconAnchor: [15, 15]})
@@ -281,23 +282,6 @@ function renderVacation(data) {
     </li>`).join('');
   document.getElementById('hotelList').onclick = openFromClick;
 
-  // Flights and schedule
-  document.getElementById('flightCards').innerHTML = data.flights.map(f => `
-    <div class="flight-card">
-      <p class="flight-meta">${esc(f.date)} · ${esc(f.airline)} · ${esc(f.number)}</p>
-      <div class="flight-line">
-        <span><b>${esc(f.departure)}</b><small>${esc(f.from)}</small></span>
-        <span class="flight-track" aria-hidden="true"><i>✈</i><small>${esc(f.duration)}</small></span>
-        <span class="to"><b>${esc(f.arrival)}</b><small>${esc(f.to)}</small></span>
-      </div>
-      ${f.warning ? `<p class="flight-warning">⚠ ${esc(f.warning)}</p>` : ''}
-    </div>`).join('');
-  document.getElementById('flightNotes').innerHTML = data.flightNotes.map(n => `<li>${esc(n)}</li>`).join('');
-  const shortDate = iso => fmt(utc(iso), {day: 'numeric', month: 'short'});
-  document.getElementById('schedule').innerHTML = `<thead><tr><th>Onderdeel</th><th>Start</th><th>Einde</th><th>Nachten</th><th>Inbegrepen</th></tr></thead><tbody>`
-    + data.schedule.map(([name, from, to, nights, incl]) => `<tr><td>${esc(name)}</td><td>${shortDate(from)}</td><td>${shortDate(to)}</td><td>${esc(nights)}</td><td>${esc(incl)}</td></tr>`).join('')
-    + `</tbody><tfoot><tr><td>Totaal</td><td>${shortDate(trip.startDate)}</td><td>${shortDate(trip.endDate)}</td><td>${days.length - 1}</td><td></td></tr></tfoot>`;
-
   // Practical, attention points and credits
   document.getElementById('practicalGrid').innerHTML = data.practical.map(p => `<article><div class="pict">${esc(p.icon)}</div><h3>${esc(p.title)}</h3><p>${esc(p.description)}</p></article>`).join('');
   document.getElementById('attention').innerHTML = `<h3>Nog na te vragen</h3><ul>${data.attention.map(a => `<li>${esc(a)}</li>`).join('')}</ul>`;
@@ -305,6 +289,21 @@ function renderVacation(data) {
   document.getElementById('photoCredits').innerHTML = Object.values(data.photos).map(p => `<li>${esc(p.caption)}: <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.credit)}</a>, ${esc(p.license)}</li>`).join('');
 
   document.getElementById('dataStatus').hidden = true;
+  revealOnScroll();
+}
+
+function revealOnScroll() {
+  const targets = document.querySelectorAll('.section-heading, .stats > div, .ribbon, .cal-day, .leg, .day-view, .route-layout, .hotel, .practical-grid article, .attention');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const io = new IntersectionObserver(entries => entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), {rootMargin: '0px 0px -8% 0px'});
+  targets.forEach((el, i) => {
+    if (el.classList.contains('in')) return;
+    el.classList.add('reveal');
+    el.style.setProperty('--delay', `${(i % 7) * 45}ms`);
+    io.observe(el);
+  });
 }
 
 // Solid header once the hero has scrolled away
@@ -314,7 +313,7 @@ addEventListener('scroll', onScroll, {passive: true});
 onScroll();
 
 function validateVacation(data) {
-  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.flights) || !Array.isArray(data.schedule) || !Array.isArray(data.practical) || !Array.isArray(data.moreInfo) || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
+  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.practical) || !Array.isArray(data.moreInfo) || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
   const iso = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value + 'T00:00:00Z'));
   if (!iso(data.trip.startDate) || !iso(data.trip.endDate) || !Number.isInteger(data.trip.travelers) || data.trip.travelers < 1) throw new Error('Controleer de reisdatums en het aantal reizigers.');
   const expectedDays = (Date.parse(data.trip.endDate) - Date.parse(data.trip.startDate)) / 86400000 + 1;
