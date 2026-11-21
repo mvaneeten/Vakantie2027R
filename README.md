@@ -12,7 +12,6 @@ Live: https://mvaneeten.github.io/Vakantie2027R/
 - Kaart (OpenStreetMap) met de autoroute en de treinreis Boston → New York.
 - Verblijven: per stop de in- en uitcheckdatum, het type hotel en wat er inbegrepen is.
 - Vluchten en het volledige reisschema ("Jouw reis in het kort").
-- Praktische informatie en punten om nog na te vragen.
 
 ## Bestanden
 

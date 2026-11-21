@@ -110,7 +110,7 @@ section[id] { scroll-margin-top: 80px; }
 .stats span { display: block; margin-top: 10px; color: var(--muted); font-size: 14px; }
 
 /* Section headings */
-.overview, .days, .route, .hotels, .practical { padding: 130px 0 0; }
+.overview, .days, .route, .hotels { padding: 130px 0 0; }
 .section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 40px; margin-bottom: 44px; }
 .section-heading > p { max-width: 400px; margin: 0; color: var(--muted); line-height: 1.7; font-size: 15px; }
 .section-index { font-size: 13px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
@@ -280,18 +280,6 @@ a.tonight:hover { border-color: color-mix(in srgb, var(--c) 60%, transparent); b
 .hotel-price small { font-size: 10px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--c); }
 .hotel-price p { margin: 0; font-size: 13.5px; line-height: 1.5; color: #d5d9e0; }
 
-/* Practical */
-.practical-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
-.practical-grid article { padding: 26px; border-radius: 24px; background: var(--surface); border: 1px solid var(--line); transition: border-color .3s, background .3s; }
-.practical-grid article:hover { border-color: var(--line-strong); background: var(--surface-strong); }
-.pict { width: 50px; height: 50px; display: grid; place-items: center; border-radius: 16px; font-size: 24px; background: linear-gradient(140deg, rgba(255, 106, 61, .25), rgba(139, 92, 246, .2)); border: 1px solid var(--line-strong); }
-.practical-grid h3 { font-size: 20px; font-weight: 700; margin: 16px 0 8px; }
-.practical-grid p { margin: 0; font-size: 14px; line-height: 1.7; color: #b9bfca; }
-.attention { margin-top: 18px; padding: 26px 28px; border-radius: 24px; background: linear-gradient(var(--bg-2), var(--bg-2)) padding-box, var(--gradient) border-box; border: 1px solid transparent; }
-.attention h3 { font-size: 22px; font-weight: 700; margin: 0 0 12px; }
-.attention ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; font-size: 14.5px; line-height: 1.6; color: #c9ced8; }
-.more-info { margin-top: 26px; font-size: 14px; color: var(--muted); }
-.source-links a { color: var(--text); font-weight: 600; }
 
 /* Footer */
 footer { padding: 110px 20px 60px; text-align: center; }
@@ -304,7 +292,6 @@ footer { padding: 110px 20px 60px; text-align: center; }
 /* Responsive */
 @media (max-width: 1100px) {
   .hotel-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .practical-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 1000px) {
   .hero { grid-template-columns: 1fr; gap: 28px; }
@@ -324,7 +311,7 @@ footer { padding: 110px 20px 60px; text-align: center; }
   .section-heading > p { margin-top: 16px; max-width: none; }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stats div:last-child { grid-column: 1 / -1; }
-  .overview, .days, .route, .hotels, .practical { padding-top: 96px; }
+  .overview, .days, .route, .hotels { padding-top: 96px; }
   .ribbon { flex-wrap: wrap; }
   .ribbon-stop { flex: 1 1 calc(33% - 6px) !important; }
   .calendar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -364,7 +351,7 @@ footer { padding: 110px 20px 60px; text-align: center; }
   .day-nav { gap: 8px; }
   .day-nav-btn { padding: 14px 16px; }
   .day-nav-btn b { font-size: 14px; }
-  .hotel-list, .practical-grid { grid-template-columns: 1fr; }
+  .hotel-list { grid-template-columns: 1fr; }
   .hotel-dates b { font-size: 13px; }
   .credits ul { columns: 1; }
 }
@@ -378,3 +365,9 @@ footer { padding: 110px 20px 60px; text-align: center; }
 .hotel-links { margin-top: 0; min-height: 62px; align-content: flex-start; }
 .hotel-price { min-height: 92px; }
 @media (max-width: 600px) { .hotel-price, .hotel-links { min-height: 0; } }
+/* Keep check-in / nights / check-out on one line in narrow cards */
+.hotel-dates { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 8px; padding: 12px 14px; }
+.hotel-dates small { letter-spacing: .06em; }
+.hotel-dates b { white-space: nowrap; }
+.hotel-dates .hotel-nights { padding: 5px 10px; }
+@media (max-width: 760px) { .hotel-list { grid-template-columns: 1fr; } .hotel-price, .hotel-links { min-height: 0; } }

@@ -15,7 +15,6 @@
     ],
     "heroDescription": "Een roadtrip van Toronto via Niagara Falls, de Thousand Islands en Montréal naar de White Mountains, de kust van Maine, Cape Cod, Boston en New York.",
     "intro": "Het reisvoorstel: 21 dagen en 20 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
-    "notice": "Dit is een reisvoorstel, nog geen boeking. Vluchttijden zijn onder voorbehoud. De luchtvaartmaatschappij heeft het recht om tijden en vluchtnummers zonder overleg aan te passen; vóór vertrek ontvang je een up-to-date reisschema.",
     "photoNotice": "Sfeerbeelden van Wikimedia Commons; het zijn geen foto’s van de geboekte hotels.",
     "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Voor 4 personen worden twee tweepersoonskamers gereserveerd; heb je een voorkeur voor aparte bedden, geef dit dan door."
   },
@@ -689,60 +688,6 @@
       "photo": "schiphol"
     }
   ],
-  "practical": [
-    {
-      "icon": "🚙",
-      "title": "Huurauto",
-      "description": "Hyundai Venue SUV (of vergelijkbaar), 12 t/m 23 juli (12 dagen). Groot genoeg voor 4 personen en 2 à 3 koffers; zachte koffers en tassen passen beter dan grote harde koffers. Alle auto’s zijn automaat en er wordt rechts gereden."
-    },
-    {
-      "icon": "🪪",
-      "title": "Auto ophalen",
-      "description": "Alle bestuurders tonen een geldig rijbewijs en paspoort. Er wordt een kopie van de creditcard gemaakt voor de borg: neem een geldige creditcard op naam van de hoofdbestuurder mee. Geef vóór of bij boeking door wie de hoofdbestuurder is."
-    },
-    {
-      "icon": "🛡️",
-      "title": "Verzekering huurauto",
-      "description": "WA-, all-risk- en diefstalverzekering zijn inbegrepen, met 24-uurs service. Geen eigen risico voor schade aan glas, bodem, dak en banden. Bestuurders van 21–25 jaar hebben een jonge-bestuurderpakket nodig (tegen meerprijs)."
-    },
-    {
-      "icon": "🇺🇸",
-      "title": "ESTA",
-      "description": "Verplicht voor de VS met een Nederlands of Belgisch paspoort. Aanvragen minstens 72 uur voor vertrek, er zijn kosten aan verbonden. In Nederlandse documentnummers komt de letter O niet voor, wel het cijfer 0. Na bezoek aan Iran, Irak, Syrië, Libië, Jemen, Soedan of Somalië (na 1 maart 2011) of Cuba (na 12 januari 2021) is een regulier visum nodig."
-    },
-    {
-      "icon": "🇨🇦",
-      "title": "ETA",
-      "description": "Vlieg je via Canada, dan is een ETA (Electronic Travel Authorization) verplicht. Vraag die minimaal 4 weken voor vertrek aan; betalen kan alleen per creditcard. Vraag de ETA aan via de officiële link."
-    },
-    {
-      "icon": "🛏️",
-      "title": "Kamers",
-      "description": "Voor 4 personen worden twee tweepersoonskamers gereserveerd. Voorkeur voor een kamer met aparte bedden? Geef het door."
-    },
-    {
-      "icon": "🌲",
-      "title": "Nationale parken",
-      "description": "In de Amerikaanse nationale parken betaal je ter plekke entree. Bij het eerste park kun je een National Park Pass per auto kopen; daarmee kun je vrijwel alle nationale parken bezoeken, behalve die van de Navajo Indianen."
-    },
-    {
-      "icon": "🏨",
-      "title": "Resortfees",
-      "description": "In veel Amerikaanse hotels worden verplichte resortfees gerekend voor bijvoorbeeld wifi of het zwembad. Volgens het voorstel zijn deze al inbegrepen, met uitzondering van de resortfee bij de Airstreamer op Cape Cod."
-    },
-    {
-      "icon": "💳",
-      "title": "Geld",
-      "description": "Bij aankomst kun je op de luchthaven pinnen of wisselen. In alle steden en op de luchthavens kun je pinnen; grote hoeveelheden contant geld zijn niet nodig."
-    }
-  ],
-  "attention": [
-    "Datum terugvlucht: bij de vluchtgegevens staat 29-08-2027, in het reisschema 29 juli 2027.",
-    "One-way kosten huurauto: het voorstel noemt twee verschillende bedragen (één staat nog op “XXX”).",
-    "Resortfees: het voorstel zegt dat deze inbegrepen zijn, maar bij Cape Cod staat “exclusief resortfee”.",
-    "De hotelnamen staan nog niet in het voorstel.",
-    "De tekst bij de terugvlucht spreekt van afscheid van Canada, maar je vliegt terug vanaf Newark (New York)."
-  ],
   "photos": {
     "toronto-sunset": {
       "path": "3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
@@ -940,15 +885,5 @@
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File:Old_State_House,_Boston.jpg"
     }
-  },
-  "moreInfo": [
-    {
-      "title": "Alle onderdelen in Noordoost-Amerika",
-      "url": "https://www.riksjatravel.nl/amerika/bouwstenen/"
-    },
-    {
-      "title": "Alle onderdelen in Oost-Canada",
-      "url": "https://www.riksjatravel.nl/canada/bouwstenen/"
-    }
-  ]
+  }
 }

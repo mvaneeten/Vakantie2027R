@@ -282,10 +282,7 @@ function renderVacation(data) {
     </li>`).join('');
   document.getElementById('hotelList').onclick = openFromClick;
 
-  // Practical, attention points and credits
-  document.getElementById('practicalGrid').innerHTML = data.practical.map(p => `<article><div class="pict">${esc(p.icon)}</div><h3>${esc(p.title)}</h3><p>${esc(p.description)}</p></article>`).join('');
-  document.getElementById('attention').innerHTML = `<h3>Nog na te vragen</h3><ul>${data.attention.map(a => `<li>${esc(a)}</li>`).join('')}</ul>`;
-  document.getElementById('sourceLinks').innerHTML = data.moreInfo.map(s => `<a target="_blank" rel="noopener" href="${esc(s.url)}">${esc(s.title)} ↗</a>`).join(' · ');
+  // Photo credits
   document.getElementById('photoCredits').innerHTML = Object.values(data.photos).map(p => `<li>${esc(p.caption)}: <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(p.credit)}</a>, ${esc(p.license)}</li>`).join('');
 
   document.getElementById('dataStatus').hidden = true;
@@ -293,7 +290,7 @@ function renderVacation(data) {
 }
 
 function revealOnScroll() {
-  const targets = document.querySelectorAll('.section-heading, .stats > div, .ribbon, .cal-day, .leg, .day-view, .route-layout, .hotel, .practical-grid article, .attention');
+  const targets = document.querySelectorAll('.section-heading, .stats > div, .ribbon, .cal-day, .leg, .day-view, .route-layout, .hotel');
   if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   const io = new IntersectionObserver(entries => entries.forEach(e => {
     if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
@@ -313,7 +310,7 @@ addEventListener('scroll', onScroll, {passive: true});
 onScroll();
 
 function validateVacation(data) {
-  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.practical) || !Array.isArray(data.moreInfo) || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
+  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
   const iso = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value + 'T00:00:00Z'));
   if (!iso(data.trip.startDate) || !iso(data.trip.endDate) || !Number.isInteger(data.trip.travelers) || data.trip.travelers < 1) throw new Error('Controleer de reisdatums en het aantal reizigers.');
   const expectedDays = (Date.parse(data.trip.endDate) - Date.parse(data.trip.startDate)) / 86400000 + 1;
