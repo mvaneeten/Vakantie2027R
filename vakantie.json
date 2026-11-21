@@ -129,7 +129,7 @@
       "photo": "airstream",
       "hotel": "Airstreamer op een glamping bij Falmouth",
       "hotelDescription": "Een iconische Airstreamer op een glamping bij Falmouth: knus, met airconditioning, een zithoek met slaapbank, kitchenette en privébadkamer met douche en toilet. Met een groter gezin boekt Riksja twee Airstreamers. Er is een restaurant en je kunt gratis fietsen gebruiken.",
-      "included": "Overnachting in Airstreamer (exclusief resortfee à $ 104 per verblijf)"
+      "included": "Overnachting in Airstreamer (exclusief resortfee, ter plaatse te betalen)"
     },
     {
       "name": "Boston",
@@ -236,7 +236,7 @@
       ],
       "stop": 1,
       "night": "1/1",
-      "notes": "Tijdens een boottocht kom je nog dichterbij de waterval. Het gedonder is zo luid dat je de audio bijna niet meer hoort, maar vanaf de boot maak je de meest indrukwekkende foto’s. Omdat je de auto op een andere plek inlevert zijn er one-way kosten van $ 385,71 CAD in totaal; die betaal je ter plaatse bij het ophalen. Neem rijbewijs en paspoort van alle bestuurders en een creditcard op naam van de hoofdbestuurder mee.",
+      "notes": "Tijdens een boottocht kom je nog dichterbij de waterval. Het gedonder is zo luid dat je de audio bijna niet meer hoort, maar vanaf de boot maak je de meest indrukwekkende foto’s. Omdat je de auto op een andere plek inlevert zijn er one-way kosten; die betaal je ter plaatse bij het ophalen. Neem rijbewijs en paspoort van alle bestuurders en een creditcard op naam van de hoofdbestuurder mee.",
       "bouwsteen": {
         "title": "Boot naar bulderend water – Niagara Falls",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/niagara-watervallen/"
@@ -338,7 +338,7 @@
       ],
       "stop": 3,
       "night": "2/2",
-      "notes": "De fietstocht start na de lunch, duurt ongeveer drie uur en je sluit af met de lekkerste bagel van de stad met creamcheese. Daarna kun je de fiets nog gratis aanhouden en lever je deze aan het einde van de dag weer in. Voor een meerprijs (ca. € 15,-) kun je een E-bike huren; handig in het deels heuvelachtige Montréal. Vergeet niet de plaatselijke lekkernij 'poutine' te proeven.",
+      "notes": "De fietstocht start na de lunch, duurt ongeveer drie uur en je sluit af met de lekkerste bagel van de stad met creamcheese. Daarna kun je de fiets nog gratis aanhouden en lever je deze aan het einde van de dag weer in. Tegen een meerprijs kun je een E-bike huren; handig in het deels heuvelachtige Montréal. Vergeet niet de plaatselijke lekkernij 'poutine' te proeven.",
       "bouwsteen": {
         "title": "Welkom in charmant Montréal",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/montreal/"
@@ -418,7 +418,7 @@
       ],
       "stop": 5,
       "night": "1/2",
-      "notes": "Bij het eerste nationale park op je route kun je een National Park Pass kopen voor $ 250 per auto. Met deze pas kun je vrijwel alle nationale parken bezoeken.",
+      "notes": "Bij het eerste nationale park op je route kun je een National Park Pass per auto kopen. Met deze pas kun je vrijwel alle nationale parken bezoeken.",
       "bouwsteen": {
         "title": "Acadia National Park (Maine)",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/acadia-national-park/"
@@ -469,7 +469,7 @@
       ],
       "stop": 6,
       "night": "1/2",
-      "notes": "Let op: voor dit verblijf geldt een resortfee van $ 104 per verblijf die je ter plaatse betaalt. Er is een restaurant als je geen zin hebt om zelf te koken, en er zijn gratis fietsen. Sluit 's avonds aan bij het kampvuur met live muziek voor het echte kampeergevoel.",
+      "notes": "Let op: voor dit verblijf geldt een resortfee die je ter plaatse betaalt. Er is een restaurant als je geen zin hebt om zelf te koken, en er zijn gratis fietsen. Sluit 's avonds aan bij het kampvuur met live muziek voor het echte kampeergevoel.",
       "bouwsteen": {
         "title": "Cape Cod",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/cape-cod/"
@@ -690,111 +690,6 @@
       "photo": "schiphol"
     }
   ],
-  "pricing": {
-    "basis": "Reissom per persoon, gebaseerd op 4 volwassenen",
-    "persons": 4,
-    "groups": [
-      {
-        "title": "Landarrangement",
-        "rows": [
-          [
-            "Land arrangementen",
-            3894.0
-          ],
-          [
-            "Auto (totaal € 888,00)",
-            222.0
-          ],
-          [
-            "Reserveringskosten",
-            18.75
-          ],
-          [
-            "Calamiteitenfonds",
-            0.62
-          ],
-          [
-            "SGR verplichte bijdrage",
-            5.0
-          ]
-        ],
-        "totalLabel": "Totale reissom per persoon",
-        "total": 4140.37,
-        "color": "#c8402c"
-      },
-      {
-        "title": "Vluchtarrangement",
-        "rows": [
-          [
-            "Vluchttarief internationaal volwassenen",
-            490.0
-          ],
-          [
-            "Luchthavenbelastingen/veiligheids-/brandstoftoeslagen",
-            563.0
-          ],
-          [
-            "Service fee vluchtboeking",
-            10.0
-          ],
-          [
-            "Ticketingkosten",
-            22.0
-          ]
-        ],
-        "totalLabel": "Totale reissom voor de vluchten per persoon",
-        "total": 1085.0,
-        "color": "#2a7f9e"
-      }
-    ],
-    "local": [
-      {
-        "item": "One-way kosten huurauto",
-        "amount": "CAD 385,71",
-        "note": "Totaal voor de route; te betalen bij het ophalen van de huurauto."
-      },
-      {
-        "item": "Resortfee Cape Cod (Airstreamer)",
-        "amount": "$ 104",
-        "note": "Per verblijf, ter plaatse te betalen."
-      },
-      {
-        "item": "ESTA (VS)",
-        "amount": "$ 40 p.p.",
-        "note": "Verplicht, minstens 72 uur voor vertrek aanvragen."
-      },
-      {
-        "item": "ETA (Canada)",
-        "amount": "CAD 7 p.p.",
-        "note": "Verplicht bij vliegen via Canada; alleen per creditcard. Meer dan CAD 7 mag het niet kosten."
-      },
-      {
-        "item": "National Park Pass",
-        "amount": "$ 250 per auto",
-        "note": "Te koop bij het eerste nationale park op de route."
-      },
-      {
-        "item": "Park Loop Acadia",
-        "amount": "entree",
-        "note": "Op een deel van de rondweg wordt entree gevraagd (gedekt door de National Park Pass)."
-      },
-      {
-        "item": "E-bike Montréal (optioneel)",
-        "amount": "ca. € 15",
-        "note": "Meerprijs voor de fietstour."
-      },
-      {
-        "item": "Jonge bestuurder (21–25 jaar)",
-        "amount": "vanaf € 23 per dag",
-        "note": "Alleen als een bestuurder tussen 21 en 25 jaar oud is."
-      },
-      {
-        "item": "Mt. Washington tandradbaan",
-        "amount": "zelf boeken",
-        "note": "Niet via Riksja te boeken; via internet of ter plaatse."
-      }
-    ]
-  },
   "schedule": [
     [
       "Gratis CO2-compensatie voor je reis",
@@ -878,7 +773,7 @@
       "2027-07-21",
       "2027-07-23",
       2,
-      "Overnachting in Airstreamer (exclusief resortfee à $ 104 per verblijf)"
+      "Overnachting in Airstreamer (exclusief resortfee, ter plaatse te betalen)"
     ],
     [
       "Walvis spot excursie per boot - Cape Cod",
@@ -980,17 +875,17 @@
     {
       "icon": "🛡️",
       "title": "Verzekering huurauto",
-      "description": "WA-, all-risk- en diefstalverzekering zijn inbegrepen, met 24-uurs service. Geen eigen risico voor schade aan glas, bodem, dak en banden. Bestuurders van 21–25 jaar hebben een jonge-bestuurderpakket nodig (vanaf € 23 per dag)."
+      "description": "WA-, all-risk- en diefstalverzekering zijn inbegrepen, met 24-uurs service. Geen eigen risico voor schade aan glas, bodem, dak en banden. Bestuurders van 21–25 jaar hebben een jonge-bestuurderpakket nodig (tegen meerprijs)."
     },
     {
       "icon": "🇺🇸",
       "title": "ESTA",
-      "description": "Verplicht voor de VS met een Nederlands of Belgisch paspoort. Aanvragen minstens 72 uur voor vertrek, kosten $ 40 p.p. In Nederlandse documentnummers komt de letter O niet voor, wel het cijfer 0. Na bezoek aan Iran, Irak, Syrië, Libië, Jemen, Soedan of Somalië (na 1 maart 2011) of Cuba (na 12 januari 2021) is een regulier visum nodig."
+      "description": "Verplicht voor de VS met een Nederlands of Belgisch paspoort. Aanvragen minstens 72 uur voor vertrek, er zijn kosten aan verbonden. In Nederlandse documentnummers komt de letter O niet voor, wel het cijfer 0. Na bezoek aan Iran, Irak, Syrië, Libië, Jemen, Soedan of Somalië (na 1 maart 2011) of Cuba (na 12 januari 2021) is een regulier visum nodig."
     },
     {
       "icon": "🇨🇦",
       "title": "ETA",
-      "description": "Vlieg je via Canada, dan is een ETA (Electronic Travel Authorization) verplicht. Vraag die minimaal 4 weken voor vertrek aan; kosten CAD 7 p.p., alleen per creditcard. Meer dan CAD 7 mag het niet kosten."
+      "description": "Vlieg je via Canada, dan is een ETA (Electronic Travel Authorization) verplicht. Vraag die minimaal 4 weken voor vertrek aan; betalen kan alleen per creditcard. Vraag de ETA aan via de officiële link."
     },
     {
       "icon": "🛏️",
@@ -1000,12 +895,12 @@
     {
       "icon": "🌲",
       "title": "Nationale parken",
-      "description": "In de Amerikaanse nationale parken betaal je ter plekke entree. Bij het eerste park kun je een National Park Pass kopen voor $ 250 per auto; daarmee kun je vrijwel alle nationale parken bezoeken, behalve die van de Navajo Indianen."
+      "description": "In de Amerikaanse nationale parken betaal je ter plekke entree. Bij het eerste park kun je een National Park Pass per auto kopen; daarmee kun je vrijwel alle nationale parken bezoeken, behalve die van de Navajo Indianen."
     },
     {
       "icon": "🏨",
       "title": "Resortfees",
-      "description": "In veel Amerikaanse hotels worden verplichte resortfees gerekend voor bijvoorbeeld wifi of het zwembad. Volgens het voorstel zijn deze al inbegrepen, met uitzondering van de resortfee van $ 104 bij de Airstreamer op Cape Cod."
+      "description": "In veel Amerikaanse hotels worden verplichte resortfees gerekend voor bijvoorbeeld wifi of het zwembad. Volgens het voorstel zijn deze al inbegrepen, met uitzondering van de resortfee bij de Airstreamer op Cape Cod."
     },
     {
       "icon": "🎁",
@@ -1030,8 +925,8 @@
   ],
   "attention": [
     "Datum terugvlucht: het vluchtschema noemt 29-08-2027, het reisschema 29 juli 2027.",
-    "One-way kosten huurauto: de tekst noemt $ 385,71 CAD, het autohuurblok nog “€ XXX”.",
-    "Resortfees: het voorstel zegt dat deze inbegrepen zijn, maar bij Cape Cod staat “exclusief resortfee à $ 104 per verblijf”.",
+    "One-way kosten huurauto: het voorstel noemt twee verschillende bedragen (één staat nog op “XXX”).",
+    "Resortfees: het voorstel zegt dat deze inbegrepen zijn, maar bij Cape Cod staat “exclusief resortfee”.",
     "De hotelnamen staan nog niet in het voorstel.",
     "De tekst bij de terugvlucht spreekt van afscheid van Canada, maar je vliegt terug vanaf Newark (New York)."
   ],

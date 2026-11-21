@@ -16,14 +16,13 @@ const bouwsteenLink = (b, cls = 'bouwsteen-link') => b ? `<a class="${cls}" href
 
 function renderVacation(data) {
   validateVacation(data);
-  const {trip, stops, days, pricing} = data;
+  const {trip, stops, days} = data;
   const hotelNights = stops.reduce((sum, stop) => sum + stop.nights, 0);
   const year = new Date(trip.startDate + 'T00:00:00Z').getUTCFullYear();
   const utc = iso => new Date(iso + 'T00:00:00Z');
   const fmt = (date, opts) => date.toLocaleDateString('nl-NL', {...opts, timeZone: 'UTC'});
   const dateAt = offset => new Date(Date.parse(trip.startDate + 'T00:00:00Z') + offset * 86400000);
   const dateLabel = date => fmt(date, {day: 'numeric', month: 'long'});
-  const euro = (n, digits = 2) => new Intl.NumberFormat('nl-NL', {style: 'currency', currency: trip.currency, minimumFractionDigits: digits, maximumFractionDigits: digits}).format(n);
   const color = i => STOP_COLORS[i % STOP_COLORS.length];
   const month = date => fmt(date, {month: 'short'}).replace('.', '');
   const shortRange = (a, b) => a.getUTCMonth() === b.getUTCMonth()
@@ -39,8 +38,6 @@ function renderVacation(data) {
   });
   const dayColor = d => d.stop !== null ? color(d.stop) : '#5d6b78';
   const modeIcon = t => (MODE[t.mode] || MODE.auto).icon;
-  const totalPP = pricing.groups.reduce((n, g) => n + g.total, 0);
-  const totalAll = totalPP * pricing.persons;
 
   // Hero slideshow and texts
   const slides = document.getElementById('heroSlides');
@@ -73,9 +70,7 @@ function renderVacation(data) {
   const view = {...trip, year: String(year), heroFirst: trip.heroTitle[0], heroLast: trip.heroTitle[1],
     dateRange: `${fmt(start, {day: 'numeric', month: 'long'})} — ${fmt(end, {day: 'numeric', month: 'long', year: 'numeric'})}`,
     dayCount: days.length, nightCount: days.length - 1, stopCount: stops.length, travelerCount: trip.travelers, distanceShort: distance,
-    perPersonShort: euro(totalPP, 0), routeDescription: data.route.lineDescription, distanceLabel: data.route.distanceLabel,
-    pricingBasis: `${pricing.basis}. Alle bedragen komen uit het reisvoorstel.`,
-    grandTotal: euro(totalAll), grandTotalNote: `${euro(totalPP)} per persoon, landarrangement en vluchten samen`};
+    routeDescription: data.route.lineDescription, distanceLabel: data.route.distanceLabel,};
   document.querySelectorAll('[data-trip-text]').forEach(el => { el.textContent = view[el.dataset.tripText]; });
   document.title = trip.title;
 
@@ -286,23 +281,6 @@ function renderVacation(data) {
     </li>`).join('');
   document.getElementById('hotelList').onclick = openFromClick;
 
-  // Prices
-  document.getElementById('priceGroups').innerHTML = pricing.groups.map(g => `
-    <div class="price-group" style="--c:${g.color}">
-      <h3>${esc(g.title)} <small>per persoon</small></h3>
-      ${g.rows.map(([name, amount]) => `<div class="price-row"><span>${esc(name)}</span><span>${euro(amount)}</span></div>`).join('')}
-      <div class="price-row price-total"><span>${esc(g.totalLabel)}</span><span>${euro(g.total)}</span></div>
-      <div class="price-row price-all"><span>Voor ${pricing.persons} personen</span><span>${euro(g.total * pricing.persons)}</span></div>
-    </div>`).join('') + `
-    <div class="price-group price-grand">
-      <div class="price-row"><span>Totaal per persoon</span><span>${euro(totalPP)}</span></div>
-      <div class="price-row price-total"><span>Totaal voor ${pricing.persons} personen</span><span>${euro(totalAll)}</span></div>
-    </div>`;
-  let angle = 0;
-  document.querySelector('.budget-ring').style.background = `conic-gradient(${pricing.groups.map(g => { const from = angle; angle += g.total / totalPP * 100; return `${g.color} ${from}% ${angle}%`; }).join(',')})`;
-  document.getElementById('ringLegend').innerHTML = pricing.groups.map(g => `<span><i style="background:${g.color}"></i>${esc(g.title)} ${Math.round(g.total / totalPP * 100)}%</span>`).join('');
-  document.getElementById('localCosts').innerHTML = pricing.local.map(l => `<div class="local-cost"><b>${esc(l.amount)}</b><span>${esc(l.item)}</span><small>${esc(l.note)}</small></div>`).join('');
-
   // Flights and schedule
   document.getElementById('flightCards').innerHTML = data.flights.map(f => `
     <div class="flight-card">
@@ -340,7 +318,7 @@ addEventListener('scroll', onScroll, {passive: true});
 onScroll();
 
 function validateVacation(data) {
-  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !data.pricing || !Array.isArray(data.flights) || !Array.isArray(data.schedule) || !Array.isArray(data.practical) || !data.agency || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
+  if (data.schemaVersion !== 1 || !data.trip || !Array.isArray(data.stops) || !Array.isArray(data.days) || !Array.isArray(data.flights) || !Array.isArray(data.schedule) || !Array.isArray(data.practical) || !data.agency || !data.photos) throw new Error('Onbekende indeling van de reisgegevens.');
   const iso = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value + 'T00:00:00Z'));
   if (!iso(data.trip.startDate) || !iso(data.trip.endDate) || !Number.isInteger(data.trip.travelers) || data.trip.travelers < 1) throw new Error('Controleer de reisdatums en het aantal reizigers.');
   const expectedDays = (Date.parse(data.trip.endDate) - Date.parse(data.trip.startDate)) / 86400000 + 1;
@@ -355,10 +333,6 @@ function validateVacation(data) {
     const stop = hotelSequence[i] ?? null;
     if (d.stop !== stop) throw new Error('De hotelnachten sluiten niet aan op het dagprogramma.');
     if (stop !== null) { const first = hotelSequence.indexOf(stop); if (d.night !== ((i - first + 1) + '/' + data.stops[stop].nights)) throw new Error('De nachtnummering klopt niet.'); }
-  }
-  for (const g of data.pricing.groups) {
-    const sum = g.rows.reduce((n, [, amount]) => n + amount, 0);
-    if (Math.abs(sum - g.total) > 0.005) throw new Error(`De prijsregels van "${g.title}" tellen niet op tot ${g.total}.`);
   }
 }
 

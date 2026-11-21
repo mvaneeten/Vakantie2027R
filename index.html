@@ -22,7 +22,6 @@
     <a href="#dagen">Dag voor dag</a>
     <a href="#route">Kaart</a>
     <a href="#hotels">Verblijven</a>
-    <a href="#prijzen">Prijzen</a>
     <a href="#vluchten">Vluchten</a>
     <a href="#praktisch">Reisinfo</a>
   </nav>
@@ -53,7 +52,7 @@
     <div><strong data-trip-text="nightCount"></strong><span>nachten</span></div>
     <div><strong data-trip-text="stopCount"></strong><span>bestemmingen</span></div>
     <div><strong data-trip-text="distanceShort"></strong><span>km met de auto</span></div>
-    <div><strong data-trip-text="perPersonShort"></strong><span>p.p. incl. vluchten</span></div>
+    <div><strong data-trip-text="travelerCount"></strong><span>reizigers</span></div>
   </section>
 
   <section class="intro section-wrap">
@@ -125,29 +124,11 @@
     </div>
   </section>
 
-  <section id="prijzen" class="budget section-wrap">
-    <div class="section-heading">
-      <div><p class="eyebrow">05 · Prijzen</p><h2>Wat kost <em>de reis?</em></h2></div>
-      <p data-trip-text="pricingBasis"></p>
-    </div>
-    <div class="price-layout">
-      <div class="budget-total">
-        <span>Totaal voor <b data-trip-text="travelerCount"></b> personen</span>
-        <strong data-trip-text="grandTotal"></strong>
-        <p data-trip-text="grandTotalNote"></p>
-        <div class="budget-ring" aria-hidden="true"><span>100%</span></div>
-        <div class="ring-legend" id="ringLegend"></div>
-      </div>
-      <div class="price-groups" id="priceGroups"></div>
-    </div>
-    <h3 class="sub-heading">Kosten ter plaatse en optioneel</h3>
-    <div class="local-costs" id="localCosts"></div>
-  </section>
 
   <section id="vluchten" class="flights">
     <div class="section-wrap">
       <div class="section-heading">
-        <div><p class="eyebrow">06 · Vluchten & reisschema</p><h2>Het voorstel <em>in het kort</em></h2></div>
+        <div><p class="eyebrow">05 · Vluchten & reisschema</p><h2>Het voorstel <em>in het kort</em></h2></div>
         <p>De vluchten en het volledige reisschema zoals in het voorstel van Riksja Travel.</p>
       </div>
       <div class="flight-cards" id="flightCards"></div>
@@ -159,7 +140,7 @@
 
   <section id="praktisch" class="practical">
     <div class="section-wrap">
-      <p class="eyebrow light">07 · Goed om te weten</p>
+      <p class="eyebrow light">06 · Goed om te weten</p>
       <h2>Voordat we <em>vertrekken</em></h2>
       <div class="practical-grid" id="practicalGrid"></div>
       <div class="attention" id="attention"></div>
@@ -172,7 +153,7 @@
 
   <section id="riksja" class="agency section-wrap">
     <div class="section-heading">
-      <div><p class="eyebrow">08 · Riksja Travel</p><h2>Over <em>de reisorganisatie</em></h2></div>
+      <div><p class="eyebrow">07 · Riksja Travel</p><h2>Over <em>de reisorganisatie</em></h2></div>
       <div class="contact-card" id="contactCard"></div>
     </div>
     <div class="agency-grid" id="agencyGrid"></div>
@@ -190,7 +171,7 @@
   </footer>
 </main>
 
-<noscript><p class="section-wrap note">Schakel JavaScript in om het dagprogramma, de verblijven en de prijzen te bekijken.</p></noscript>
+<noscript><p class="section-wrap note">Schakel JavaScript in om het dagprogramma en de verblijven te bekijken.</p></noscript>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>

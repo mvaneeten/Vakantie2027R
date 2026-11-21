@@ -1,9 +1,9 @@
 # Canada & Amerika 2027 · Riksja
 
 Website van het reisvoorstel van Riksja Travel: rondreis van Toronto naar New York, 10–30 juli 2027, 4 volwassenen.
-20 nachten (19 hotelnachten en de nachtvlucht terug). Totaal volgens het voorstel € 20.901,48 voor 4 personen (landarrangement € 4.140,37 en vluchten € 1.085,00 per persoon).
+20 nachten (19 hotelnachten en de nachtvlucht terug).
 
-Live: https://mvaneeten.github.io/vakantie2027R/
+Live: https://mvaneeten.github.io/Vakantie2027R/
 
 ## Onderdelen
 
@@ -11,7 +11,6 @@ Live: https://mvaneeten.github.io/vakantie2027R/
 - Dag voor dag: foto, reistijd, programma, tips, het verblijf van die nacht en de link naar de Riksja-bouwsteen.
 - Kaart (OpenStreetMap) met de autoroute en de treinreis Boston → New York.
 - Verblijven: per stop de in- en uitcheckdatum, het type hotel en wat er inbegrepen is.
-- Prijzen: alle bedragen uit het voorstel, en de kosten ter plaatse.
 - Vluchten en het volledige reisschema ("Jouw reis in het kort").
 - Praktische informatie, punten om na te vragen bij Riksja, en informatie over Riksja Travel.
 
