@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1f3b2d">
+<meta name="description" content="Reisvoorstel van Riksja Travel: rondreis door Canada en Amerika, van Toronto naar New York, 10–30 juli 2027.">
+<title>Canada & Amerika 2027 · Riksja</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#dagen">Direct naar het dagprogramma</a>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#top"><span class="brand-mark">✦</span> Canada <em>&</em> Amerika <span class="brand-year" data-trip-text="year"></span></a>
+  <nav aria-label="Hoofdmenu">
+    <a href="#overzicht">Kalender</a>
+    <a href="#dagen">Dag voor dag</a>
+    <a href="#route">Kaart</a>
+    <a href="#hotels">Verblijven</a>
+    <a href="#prijzen">Prijzen</a>
+    <a href="#vluchten">Vluchten</a>
+    <a href="#praktisch">Reisinfo</a>
+  </nav>
+</header>
+
+<main id="top">
+  <div id="dataStatus" class="data-status" role="status">Reisgegevens laden…</div>
+
+  <section class="hero" aria-label="Introductie">
+    <div class="hero-slides" id="heroSlides" aria-hidden="true"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow light"><span data-trip-text="dateRange"></span> · Reisvoorstel Riksja Travel</p>
+      <h1><span data-trip-text="heroFirst"></span> <em>&</em><br><span data-trip-text="heroLast"></span></h1>
+      <p class="hero-sub" data-trip-text="heroDescription"></p>
+      <div class="countdown" id="countdown" aria-live="polite"></div>
+      <div class="hero-actions">
+        <a class="button primary" href="#dagen">Ontdek het reisplan <span aria-hidden="true">→</span></a>
+        <a class="button ghost" href="#overzicht">Bekijk de kalender</a>
+      </div>
+    </div>
+    <div class="hero-caption" id="heroCaption"></div>
+    <div class="hero-ticker" id="routeSummary"></div>
+  </section>
+
+  <section class="stats section-wrap" aria-label="De reis in cijfers">
+    <div><strong data-trip-text="dayCount"></strong><span>dagen</span></div>
+    <div><strong data-trip-text="nightCount"></strong><span>nachten</span></div>
+    <div><strong data-trip-text="stopCount"></strong><span>bestemmingen</span></div>
+    <div><strong data-trip-text="distanceShort"></strong><span>km met de auto</span></div>
+    <div><strong data-trip-text="perPersonShort"></strong><span>p.p. incl. vluchten</span></div>
+  </section>
+
+  <section class="intro section-wrap">
+    <div>
+      <p class="eyebrow">Het reisvoorstel</p>
+      <h2>Negen plekken.<br><em>Eén grote roadtrip.</em></h2>
+    </div>
+    <p class="lead" data-trip-text="intro"></p>
+  </section>
+
+  <section id="overzicht" class="overview">
+    <div class="section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 · Kalender</p><h2>Waar zijn we <em>wanneer?</em></h2></div>
+        <p>Elke dag van de reis in één oogopslag, met de reistijd op reisdagen. Klik op een dag voor het volledige programma.</p>
+      </div>
+      <div class="ribbon" id="ribbon" aria-label="Verblijven op volgorde"></div>
+      <div class="calendar" id="calendar"></div>
+      <p class="legend"><span class="legend-item"><span class="travel-badge">🚗</span> Rijdag met de huurauto</span><span class="legend-item"><span class="travel-badge">🚆</span> Treinreis</span><span class="legend-item"><span class="travel-badge">✈</span> Vliegdag</span></p>
+      <h3 class="sub-heading">Reistijden tussen de plaatsen</h3>
+      <div class="legs" id="legs"></div>
+      <p class="note">Rijtijden zijn berekend via OpenStreetMap en gaan uit van rijden zonder pauzes en zonder verkeer; reken in de praktijk op extra tijd. Vlucht- en treintijden komen uit het reisvoorstel.</p>
+    </div>
+  </section>
+
+  <section id="dagen" class="days">
+    <div class="section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 · Dag voor dag</p><h2>Het <em>reisdagboek</em></h2></div>
+        <p>Blader van dag naar dag met de knoppen, de pijltjestoetsen of door te vegen op de foto.</p>
+      </div>
+      <div class="day-strip" id="dayStrip" role="tablist" aria-label="Kies een dag"></div>
+      <div class="day-progress" aria-hidden="true"><span id="dayProgress"></span></div>
+      <article class="day-view" id="dayView" aria-live="polite"></article>
+      <div class="day-nav">
+        <button type="button" class="day-nav-btn" id="prevDay"></button>
+        <button type="button" class="day-nav-btn next" id="nextDay"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="route" class="route">
+    <div class="section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 · De kaart</p><h2>Van Toronto <em>naar New York</em></h2></div>
+        <p data-trip-text="routeDescription"></p>
+      </div>
+      <div class="route-layout">
+        <div id="map" aria-label="Interactieve kaart van de route"><div class="map-fallback">Kaart laden…</div></div>
+        <div class="route-list" id="routeList" aria-label="De stops"></div>
+      </div>
+      <p id="mapStatus" class="note" role="status"></p>
+      <div class="map-actions">
+        <button id="showRoute" type="button" class="chip-button">Toon de hele route</button>
+        <a target="_blank" rel="noopener" id="googleMapsRoute">Open de autoroute in Google Maps ↗</a>
+        <span data-trip-text="distanceLabel"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="hotels" class="hotels">
+    <div class="section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">04 · Verblijven</p><h2>Waar we <em>slapen</em></h2></div>
+        <p data-trip-text="hotelNotice"></p>
+      </div>
+      <div class="hotel-summary" id="hotelSummary"></div>
+      <ol class="hotel-list" id="hotelList"></ol>
+    </div>
+  </section>
+
+  <section id="prijzen" class="budget section-wrap">
+    <div class="section-heading">
+      <div><p class="eyebrow">05 · Prijzen</p><h2>Wat kost <em>de reis?</em></h2></div>
+      <p data-trip-text="pricingBasis"></p>
+    </div>
+    <div class="price-layout">
+      <div class="budget-total">
+        <span>Totaal voor <b data-trip-text="travelerCount"></b> personen</span>
+        <strong data-trip-text="grandTotal"></strong>
+        <p data-trip-text="grandTotalNote"></p>
+        <div class="budget-ring" aria-hidden="true"><span>100%</span></div>
+        <div class="ring-legend" id="ringLegend"></div>
+      </div>
+      <div class="price-groups" id="priceGroups"></div>
+    </div>
+    <h3 class="sub-heading">Kosten ter plaatse en optioneel</h3>
+    <div class="local-costs" id="localCosts"></div>
+  </section>
+
+  <section id="vluchten" class="flights">
+    <div class="section-wrap">
+      <div class="section-heading">
+        <div><p class="eyebrow">06 · Vluchten & reisschema</p><h2>Het voorstel <em>in het kort</em></h2></div>
+        <p>De vluchten en het volledige reisschema zoals in het voorstel van Riksja Travel.</p>
+      </div>
+      <div class="flight-cards" id="flightCards"></div>
+      <ul class="flight-notes" id="flightNotes"></ul>
+      <h3 class="sub-heading">Jouw reis in het kort</h3>
+      <div class="table-wrap"><table class="schedule" id="schedule"></table></div>
+    </div>
+  </section>
+
+  <section id="praktisch" class="practical">
+    <div class="section-wrap">
+      <p class="eyebrow light">07 · Goed om te weten</p>
+      <h2>Voordat we <em>vertrekken</em></h2>
+      <div class="practical-grid" id="practicalGrid"></div>
+      <div class="attention" id="attention"></div>
+      <div class="practical-bottom">
+        <p data-trip-text="notice"></p>
+        <p>Riksja-pagina's: <span class="source-links" id="sourceLinks"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="riksja" class="agency section-wrap">
+    <div class="section-heading">
+      <div><p class="eyebrow">08 · Riksja Travel</p><h2>Over <em>de reisorganisatie</em></h2></div>
+      <div class="contact-card" id="contactCard"></div>
+    </div>
+    <div class="agency-grid" id="agencyGrid"></div>
+  </section>
+
+  <footer>
+    <p class="footer-title">Op naar <em>het avontuur.</em></p>
+    <p><span data-trip-text="title"></span> · <span data-trip-text="status"></span></p>
+    <details class="credits">
+      <summary>Fotoverantwoording</summary>
+      <p data-trip-text="photoNotice"></p>
+      <ul id="photoCredits"></ul>
+    </details>
+    <a class="to-top" href="#top">Terug naar boven ↑</a>
+  </footer>
+</main>
+
+<noscript><p class="section-wrap note">Schakel JavaScript in om het dagprogramma, de verblijven en de prijzen te bekijken.</p></noscript>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

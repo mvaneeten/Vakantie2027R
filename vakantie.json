@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 1,
+  "trip": {
+    "title": "Canada & Amerika 2027 · Riksja",
+    "startDate": "2027-07-10",
+    "endDate": "2027-07-30",
+    "returnFlightDate": "2027-07-29",
+    "travelers": 4,
+    "travelerDescription": "4 volwassenen",
+    "currency": "EUR",
+    "status": "Reisvoorstel van Riksja Travel; nog niet geboekt",
+    "heroTitle": [
+      "Canada",
+      "Amerika"
+    ],
+    "heroDescription": "Een roadtrip van Toronto via Niagara Falls, de Thousand Islands en Montréal naar de White Mountains, de kust van Maine, Cape Cod, Boston en New York.",
+    "intro": "Het reisvoorstel van Riksja Travel: 21 dagen en 20 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
+    "agency": "Riksja Travel Amerika",
+    "notice": "Dit is een reisvoorstel van Riksja Travel, nog geen boeking. Vluchttijden zijn onder voorbehoud. De luchtvaartmaatschappij heeft het recht om tijden en vluchtnummers zonder overleg aan te passen; vóór vertrek ontvang je een up-to-date reisschema.",
+    "photoNotice": "Sfeerbeelden van Wikimedia Commons; het zijn geen foto’s van de geboekte hotels.",
+    "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Riksja werkt met een poultje van zelf bezochte hotels. Voor 4 personen reserveert Riksja twee keer een tweepersoonskamer; heb je een voorkeur voor aparte bedden, geef dit dan door."
+  },
+  "route": {
+    "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Montreal,+Quebec/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
+    "distanceLabel": "± 2.300 km met de huurauto · rijtijden berekend via OpenStreetMap, zonder pauzes en verkeer",
+    "lineDescription": "De stippellijn verbindt de verblijfplaatsen; van Boston naar New York reis je met de trein. Rijtijden zijn indicatief."
+  },
+  "stops": [
+    {
+      "name": "Toronto",
+      "sub": "Ontario · Canada",
+      "lat": 43.6532,
+      "lon": -79.3832,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Wereldstart Toronto",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/toronto/"
+      },
+      "photo": "toronto-sunset",
+      "hotel": "Modern stadshotel in het centrum",
+      "hotelDescription": "Het hotel ligt in het centrum en slechts een straat verwijderd van de winkels in de beroemde Yonge Street. Dit moderne stadshotel biedt comfort, met wat kleinere kamers maar fijn na een dagje shoppen.",
+      "included": "Overnachtingen in stadhotel en boottocht op Lake Ontario"
+    },
+    {
+      "name": "Niagara Falls",
+      "sub": "Ontario · Canada",
+      "lat": 43.0896,
+      "lon": -79.0849,
+      "nights": 1,
+      "bouwsteen": {
+        "title": "Boot naar bulderend water – Niagara Falls",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/niagara-watervallen/"
+      },
+      "photo": "niagara-boat",
+      "hotel": "Centraal gelegen hotel bij de watervallen",
+      "hotelDescription": "Bij de Niagara Falls draait alles om het water en verblijf je in een hotel op loopafstand van de watervallen.",
+      "included": "Overnachting in centraal gelegen hotel en boottocht op de Hornblower"
+    },
+    {
+      "name": "Kingston",
+      "sub": "Thousand Islands · Ontario · Canada",
+      "lat": 44.2312,
+      "lon": -76.486,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Thousand Islands in Lake Ontario",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
+      },
+      "photo": "kingston",
+      "hotel": "Eenvoudig hotel in Kingston",
+      "hotelDescription": "Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
+      "included": "Overnachtingen in eenvoudig hotel en boottocht Lake Ontario"
+    },
+    {
+      "name": "Montréal",
+      "sub": "Québec · Canada",
+      "lat": 45.5019,
+      "lon": -73.5674,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Welkom in charmant Montréal",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/montreal/"
+      },
+      "photo": "montreal-day",
+      "hotel": "Groot en modern stadshotel",
+      "hotelDescription": "Je verblijft in een groot en modern stadhotel, gelegen op ongeveer 20 minuten van het beroemde Place Jacques Cartier.",
+      "included": "Overnachtingen in comfortabel stadhotel en fietstour met lokale gids en bagel"
+    },
+    {
+      "name": "White Mountains",
+      "sub": "North Conway · New Hampshire · VS",
+      "lat": 44.0537,
+      "lon": -71.1284,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "New Hampshire: White Mountains",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
+      },
+      "photo": "north-conway",
+      "hotel": "Charmante New England-stijl Inn in North Conway",
+      "hotelDescription": "Je slaapt in een charmante Inn in New England-stijl in North Conway, inclusief ontbijt.",
+      "included": "Overnachting inclusief ontbijt in een charmante New England stijl Inn"
+    },
+    {
+      "name": "Acadia National Park",
+      "sub": "Maine · VS",
+      "lat": 44.3876,
+      "lon": -68.2039,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Acadia National Park (Maine)",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/acadia-national-park/"
+      },
+      "photo": "otter-cliff",
+      "hotel": "Hotel bij Acadia National Park",
+      "hotelDescription": "Overnachting in een hotel in de buurt van Acadia National Park. Als special stay is ook een high-end glampingtent op een klein half uurtje van het park mogelijk.",
+      "included": "Overnachting in hotel"
+    },
+    {
+      "name": "Cape Cod",
+      "sub": "Falmouth · Massachusetts · VS",
+      "lat": 41.5515,
+      "lon": -70.6148,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Cape Cod",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/cape-cod/"
+      },
+      "photo": "airstream",
+      "hotel": "Airstreamer op een glamping bij Falmouth",
+      "hotelDescription": "Een iconische Airstreamer op een glamping bij Falmouth: knus, met airconditioning, een zithoek met slaapbank, kitchenette en privébadkamer met douche en toilet. Met een groter gezin boekt Riksja twee Airstreamers. Er is een restaurant en je kunt gratis fietsen gebruiken.",
+      "included": "Overnachting in Airstreamer (exclusief resortfee à $ 104 per verblijf)"
+    },
+    {
+      "name": "Boston",
+      "sub": "Massachusetts · VS",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "nights": 2,
+      "bouwsteen": {
+        "title": "Geschiedenisles in Boston",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/boston/"
+      },
+      "photo": "boston",
+      "hotel": "Modern stadshotel in het centrum",
+      "hotelDescription": "Je hotel is gelegen in het centrum, op loopafstand van vele restaurants en winkels.",
+      "included": "Overnachting in modern stadhotel, wandeltour met gids langs de Freedom Trail"
+    },
+    {
+      "name": "New York",
+      "sub": "Manhattan · New York · VS",
+      "lat": 40.758,
+      "lon": -73.9855,
+      "nights": 4,
+      "bouwsteen": {
+        "title": "New York door de ogen van een Yankee",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
+      },
+      "photo": "midtown",
+      "hotel": "Sfeervol boutique hotel in Manhattan",
+      "hotelDescription": "Je slaapt in een sfeervol hotel in Manhattan, the place to be. De kamers zijn klein maar wel schoon en sfeervol.",
+      "included": "Overnachtingen in een boutique hotel in Manhattan"
+    }
+  ],
+  "days": [
+    {
+      "n": 1,
+      "date": "2027-07-10",
+      "title": "Internationale heenvlucht & welkom in Toronto",
+      "loc": "Toronto",
+      "travel": "Vlucht Amsterdam → Toronto",
+      "transport": {
+        "mode": "vlucht",
+        "from": "Amsterdam",
+        "to": "Toronto",
+        "distance": null,
+        "duration": "7u 55m",
+        "detail": "AC809 · Air Canada · 12:35 → 14:30"
+      },
+      "desc": "Vandaag begint je reis naar het groene Canada. Je hebt een lange vlucht voor de boeg dus trek kleren aan die lekker zitten en neem een goed boek mee. Droom onderweg alvast weg over beren, walvissen en helderblauwe meren. Welkom in Canada! In Toronto begint je reis door Oost-Canada. Je regelt vanaf de luchthaven gemakkelijk zelf het vervoer naar je verblijf (ca. 31 km, ongeveer 35 minuten).",
+      "todo": [
+        "Vlucht AC809 naar Toronto",
+        "Zelf vervoer naar het hotel regelen",
+        "Avondwandeling richting de haven of door Little Italy"
+      ],
+      "stop": 0,
+      "night": "1/2",
+      "notes": "Bij aankomst kun je meteen op de luchthaven wat geld pinnen of wisselen. Je kunt in alle steden en op de luchthavens pinnen, dus het is niet nodig grote hoeveelheden cash geld mee of op te nemen. ’s Avonds vonden wij het leuk om een wandeling te maken richting de haven of door 'Little Italy'. De stad heeft veel verschillende wijken met allemaal een eigen sfeer dus genoeg plekjes om ergens lekker te dineren.",
+      "bouwsteen": {
+        "title": "Wereldstart Toronto",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/toronto/"
+      },
+      "photo": "toronto-snake"
+    },
+    {
+      "n": 2,
+      "date": "2027-07-11",
+      "title": "Toronto vanaf het water",
+      "loc": "Toronto",
+      "travel": "Stadsdag, geen autorit",
+      "transport": null,
+      "desc": "Vandaag leer je de stad beter kennen tijdens een boottocht op het Lake Ontario. Vanaf hier kun je genieten van de skyline met de beroemde CN Tower.",
+      "todo": [
+        "Boottocht op Lake Ontario (inbegrepen)",
+        "CN Tower (kaartjes via Riksja op aanvraag)",
+        "Avond in het theater district"
+      ],
+      "stop": 0,
+      "night": "2/2",
+      "notes": "Als je de CN Tower wilt beklimmen dan kan Riksja de kaartjes regelen. Toronto is ook bekend om zijn theater district: elke avond zijn er verschillende voorstellingen en veel musicals die ook op Broadway draaien hadden hier hun wereldpremière.",
+      "bouwsteen": {
+        "title": "Wereldstart Toronto",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/toronto/"
+      },
+      "photo": "toronto-yacht"
+    },
+    {
+      "n": 3,
+      "date": "2027-07-12",
+      "title": "Huurauto ophalen & Niagara Falls",
+      "loc": "Niagara Falls",
+      "travel": "Auto ophalen op de luchthaven en naar Niagara Falls",
+      "transport": {
+        "mode": "auto",
+        "from": "Toronto Airport",
+        "to": "Niagara Falls",
+        "distance": "ca. 120 km",
+        "duration": "ca. 1,5–2 uur",
+        "detail": "Hotel → luchthaven ca. 34 km / 35 min"
+      },
+      "desc": "Vandaag haal je je huurauto op op de luchthaven van Toronto: een Hyundai Venue SUV of vergelijkbaar. Wow – dachten wij, toen we ons tussen de menigte door hadden gewurmd naar de rand van de Table Rocks en de Niagara Falls zagen en vooral hoorden. De nevel van het water was verfrissend en we keken gehypnotiseerd naar al dat water dat naar beneden stortte.",
+      "todo": [
+        "Huurauto ophalen op Toronto Airport",
+        "Boottocht op de Hornblower (inbegrepen)",
+        "Table Rocks aan de rand van de Falls"
+      ],
+      "stop": 1,
+      "night": "1/1",
+      "notes": "Tijdens een boottocht kom je nog dichterbij de waterval. Het gedonder is zo luid dat je de audio bijna niet meer hoort, maar vanaf de boot maak je de meest indrukwekkende foto’s. Omdat je de auto op een andere plek inlevert zijn er one-way kosten van $ 385,71 CAD in totaal; die betaal je ter plaatse bij het ophalen. Neem rijbewijs en paspoort van alle bestuurders en een creditcard op naam van de hoofdbestuurder mee.",
+      "bouwsteen": {
+        "title": "Boot naar bulderend water – Niagara Falls",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/niagara-watervallen/"
+      },
+      "photo": "niagara-mist"
+    },
+    {
+      "n": 4,
+      "date": "2027-07-13",
+      "title": "Niagara Falls → Kingston",
+      "loc": "Kingston",
+      "travel": "Rijdag langs Lake Ontario",
+      "transport": {
+        "mode": "auto",
+        "from": "Niagara Falls",
+        "to": "Kingston",
+        "distance": "ca. 390 km",
+        "duration": "ca. 4,5–5 uur",
+        "detail": null
+      },
+      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
+      "todo": [
+        "Rit langs Lake Ontario",
+        "Inchecken in Kingston",
+        "Avond aan de waterkant"
+      ],
+      "stop": 2,
+      "night": "1/2",
+      "notes": "Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
+      "bouwsteen": {
+        "title": "Thousand Islands in Lake Ontario",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
+      },
+      "photo": "kingston"
+    },
+    {
+      "n": 5,
+      "date": "2027-07-14",
+      "title": "Thousand Islands & Boldt Castle",
+      "loc": "Kingston",
+      "travel": "Boottocht, geen lange autorit",
+      "transport": null,
+      "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
+      "todo": [
+        "Boottocht Lake Ontario (inbegrepen)",
+        "Boldt Castle vanaf het water",
+        "Farmer's Market in Kingston"
+      ],
+      "stop": 2,
+      "night": "2/2",
+      "notes": "In Kingston bevindt zich de oudste Farmer's Market van Canada. De markt is van maandag t/m vrijdag tussen 09.00 en 17.00 uur op de Grote Markt in Kingston.",
+      "bouwsteen": {
+        "title": "Thousand Islands in Lake Ontario",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
+      },
+      "photo": "boldt"
+    },
+    {
+      "n": 6,
+      "date": "2027-07-15",
+      "title": "Welkom in charmant Montréal",
+      "loc": "Montréal",
+      "travel": "Rijdag naar Québec",
+      "transport": {
+        "mode": "auto",
+        "from": "Kingston",
+        "to": "Montréal",
+        "distance": "ca. 295 km",
+        "duration": "ca. 3,5–4 uur",
+        "detail": null
+      },
+      "desc": "Vervolgens staat de metropool Montréal op het programma. Bij aankomst vallen de hoge gebouwen wel op maar de oude stad heeft zeker de Franse charme. Wandel door de kleine steegjes met kinderkopjes, je waant je echt in Parijs! Bezoek de leuke boetiekjes en de vele gezellige restaurants en cafés.",
+      "todo": [
+        "Inchecken in het stadshotel",
+        "Wandelen door de oude stad",
+        "Mont Royal beklimmen voor het uitzicht"
+      ],
+      "stop": 3,
+      "night": "1/2",
+      "notes": "Je kunt die middag nog de Mont Royal beklimmen en het geweldige uitzicht over de hele stad bewonderen. Het hotel ligt op ongeveer 20 minuten van het beroemde Place Jacques Cartier.",
+      "bouwsteen": {
+        "title": "Welkom in charmant Montréal",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/montreal/"
+      },
+      "photo": "montreal-day"
+    },
+    {
+      "n": 7,
+      "date": "2027-07-16",
+      "title": "Fietstour door Montréal",
+      "loc": "Montréal",
+      "travel": "Stadsdag op de fiets",
+      "transport": null,
+      "desc": "Riksja regelt een leuke fietstocht samen met een lokale enthousiaste gast door het veelzijdige Montréal. Je bezoekt de oude stad met de basiliek van Notre Dame, waterkant maar ook de andere kleurrijke wijken. De gids weet veel te vertellen over de stad maar ook over de geschiedenis van Québec.",
+      "todo": [
+        "Fietstour met lokale gids, start na de lunch (ca. 3 uur)",
+        "Bagel met creamcheese als afsluiter",
+        "Ondergrondse stad en poutine proeven"
+      ],
+      "stop": 3,
+      "night": "2/2",
+      "notes": "De fietstocht start na de lunch, duurt ongeveer drie uur en je sluit af met de lekkerste bagel van de stad met creamcheese. Daarna kun je de fiets nog gratis aanhouden en lever je deze aan het einde van de dag weer in. Voor een meerprijs (ca. € 15,-) kun je een E-bike huren; handig in het deels heuvelachtige Montréal. Vergeet niet de plaatselijke lekkernij 'poutine' te proeven.",
+      "bouwsteen": {
+        "title": "Welkom in charmant Montréal",
+        "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/montreal/"
+      },
+      "photo": "old-montreal"
+    },
+    {
+      "n": 8,
+      "date": "2027-07-17",
+      "title": "Op naar de White Mountains",
+      "loc": "North Conway",
+      "travel": "Rijdag, grensovergang naar de VS",
+      "transport": {
+        "mode": "auto",
+        "from": "Montréal",
+        "to": "North Conway",
+        "distance": "ca. 350 km",
+        "duration": "ca. 4,5–5 uur",
+        "detail": "Inclusief grensovergang Canada → VS"
+      },
+      "desc": "Doe rustig aan als je naar je hotel in North Conway rijdt, want de natuur van New Hampshire is de reden dat je hier bent: groene bossen zover je kunt kijken, met daarachter de toppen van de White Mountains. Bergrivieren kabbelen onder de bruggen door en eekhoorntjes schieten weg tussen de takken.",
+      "todo": [
+        "Grensovergang Canada → VS",
+        "Inchecken in de Inn",
+        "Wandelen langs Diana's Bath"
+      ],
+      "stop": 4,
+      "night": "1/2",
+      "notes": "Als je eenmaal bent ingecheckt kun je de omgeving verkennen. Ga etalages kijken in het knusse dorp North Conway, of maak een wandeltocht door de natuur, bijvoorbeeld langs de watervallen van Diana's Bath. Als je je zwemspullen meeneemt, kun je hier zelfs even 'in bad'. Houd paspoorten en ESTA bij de hand voor de grens.",
+      "bouwsteen": {
+        "title": "New Hampshire: White Mountains",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
+      },
+      "photo": "dianas-bath"
+    },
+    {
+      "n": 9,
+      "date": "2027-07-18",
+      "title": "Mount Washington",
+      "loc": "North Conway",
+      "travel": "Uitstapjes in de omgeving",
+      "transport": null,
+      "desc": "Een leuke trip is een tochtje met de tandrad- of stoomtrein naar de top van Mt. Washington. Vanaf hier heb je op een mooie dag mooi uitzicht over de omgeving.",
+      "todo": [
+        "Tandradbaan naar Mt. Washington (zelf boeken)",
+        "Wandelen in de White Mountains",
+        "Dorpje North Conway"
+      ],
+      "stop": 4,
+      "night": "2/2",
+      "notes": "Riksja kan deze tocht niet voor je boeken, maar dit kun je gemakkelijk zelf via internet of ter plaatse regelen. Het ontbijt in de Inn is inbegrepen.",
+      "bouwsteen": {
+        "title": "New Hampshire: White Mountains",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
+      },
+      "photo": "cog-railway"
+    },
+    {
+      "n": 10,
+      "date": "2027-07-19",
+      "title": "Naar de ruige kust van Maine",
+      "loc": "Acadia National Park",
+      "travel": "Rijdag naar de kust",
+      "transport": {
+        "mode": "auto",
+        "from": "North Conway",
+        "to": "Acadia",
+        "distance": "ca. 320 km",
+        "duration": "ca. 5 uur",
+        "detail": null
+      },
+      "desc": "Maine is de noordelijkste staat aan de oostkust van de VS, grenzend aan Canada. De ruige kustlijn zit vol inhammen en eilanden. Een paar daarvan vormen samen Acadia National Park: dé plek voor mooie wandeltochten door bossen en over rotspaden, met uitzicht op zee.",
+      "todo": [
+        "Rit door New Hampshire en Maine",
+        "Inchecken bij Acadia",
+        "Eerste blik op de kust"
+      ],
+      "stop": 5,
+      "night": "1/2",
+      "notes": "Bij het eerste nationale park op je route kun je een National Park Pass kopen voor $ 250 per auto. Met deze pas kun je vrijwel alle nationale parken bezoeken.",
+      "bouwsteen": {
+        "title": "Acadia National Park (Maine)",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/acadia-national-park/"
+      },
+      "photo": "bar-harbor"
+    },
+    {
+      "n": 11,
+      "date": "2027-07-20",
+      "title": "Acadia National Park",
+      "loc": "Acadia National Park",
+      "travel": "Park Loop Road en korte ritten",
+      "transport": null,
+      "desc": "In Acadia groeien de dennen tot aan het water. Je loopt langs bergriviertjes, over keien en door het groen. De rondweg door het park (de Park Loop) kost op een deel entree, maar dat is het dubbel en dwars waard. Maak een stop bij Sand Beach – het water is ijskoud, maar het uitzicht fotowaardig.",
+      "todo": [
+        "Park Loop Road",
+        "Sand Beach",
+        "Uitzicht vanaf Mount Cadillac"
+      ],
+      "stop": 5,
+      "night": "2/2",
+      "notes": "Vanaf Mount Cadillac kijk je uit over het park en de oceaan. In de zomer is het druk; neem de gratis shuttle of reserveer van tevoren een plekje op de weg naar de top. Picknick met uitzicht, of zoek een rustige plek bij een waterval. Tip: blijf je wat langer, dan kan Riksja een boottocht van twee uur met de lokale kreeftenboot inplannen.",
+      "bouwsteen": {
+        "title": "Acadia National Park (Maine)",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/acadia-national-park/"
+      },
+      "photo": "jordan-pond"
+    },
+    {
+      "n": 12,
+      "date": "2027-07-21",
+      "title": "Naar Cape Cod: slapen in een Airstreamer",
+      "loc": "Cape Cod",
+      "travel": "Lange rijdag naar Cape Cod",
+      "transport": {
+        "mode": "auto",
+        "from": "Acadia",
+        "to": "Falmouth",
+        "distance": "ca. 545 km",
+        "duration": "ca. 7,5–8 uur",
+        "detail": null
+      },
+      "desc": "Typisch Amerikaans, dat is de Airstreamer waar je de komende nachten in slaapt. Deze Airstreamer staat op een glamping in de buurt van Falmouth in het zuiden van Cape Cod. De iconische caravans zijn knus, comfortabel ingericht en voorzien van airconditioning.",
+      "todo": [
+        "Vroeg vertrekken, pauzes onderweg",
+        "Inchecken op de glamping",
+        "Kampvuur met live muziek"
+      ],
+      "stop": 6,
+      "night": "1/2",
+      "notes": "Let op: voor dit verblijf geldt een resortfee van $ 104 per verblijf die je ter plaatse betaalt. Er is een restaurant als je geen zin hebt om zelf te koken, en er zijn gratis fietsen. Sluit 's avonds aan bij het kampvuur met live muziek voor het echte kampeergevoel.",
+      "bouwsteen": {
+        "title": "Cape Cod",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/cape-cod/"
+      },
+      "photo": "nobska"
+    },
+    {
+      "n": 13,
+      "date": "2027-07-22",
+      "title": "Walvissen spotten",
+      "loc": "Cape Cod",
+      "travel": "Boottocht van 3 à 4 uur",
+      "transport": null,
+      "desc": "Je gaat 3 à 4 uur het water op naar het Stellwagen Bank National Marine Sanctuary en krijgt informatie over het onderwaterleven en de dieren die buiten de kust van New England leven. Vervolgens ga je op zoek naar walvissen.",
+      "todo": [
+        "Walvis spot excursie (inbegrepen, meestal rond 09.30 uur)",
+        "Ferry naar Martha's Vineyard of Nantucket (optioneel)",
+        "Relaxen op de camping of het strand"
+      ],
+      "stop": 6,
+      "night": "2/2",
+      "notes": "Onze tip: geniet van het zicht en maak niet te veel foto’s, want het gaat zo voorbij. Draag een warme trui of jas, het kan koel zijn op zee. De vertrektijd hangt af van het getij; Riksja boekt meestal in de ochtend (rond 09.30 uur), maar een middagvertrek (rond 15.00 uur) kan ook.",
+      "bouwsteen": {
+        "title": "Cape Cod",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/cape-cod/"
+      },
+      "photo": "whale"
+    },
+    {
+      "n": 14,
+      "date": "2027-07-23",
+      "title": "Auto inleveren & Boston",
+      "loc": "Boston",
+      "travel": "Rit naar Boston Logan, auto inleveren",
+      "transport": {
+        "mode": "auto",
+        "from": "Falmouth",
+        "to": "Boston Airport",
+        "distance": "ca. 125 km",
+        "duration": "ca. 1,5–2 uur",
+        "detail": "Daarna luchthaven → hotel ca. 5 km"
+      },
+      "desc": "Je levert na deze roadtrip je huurauto weer in bij het verhuurkantoor van de lokale vervoeragent op de luchthaven. Vandaag kom je aan in Boston, één van de oudste steden van Amerika. Het is de stad van de prestigieuze Harvard Universiteit maar ook van de Boston Tea Party.",
+      "todo": [
+        "Huurauto inleveren op de luchthaven",
+        "Inchecken in het centrum",
+        "Slenteren door straatjes met kinderkopjes"
+      ],
+      "stop": 7,
+      "night": "1/2",
+      "notes": "Je hotel is gelegen in het centrum, op loopafstand van vele restaurants en winkels. Slenter door smalle straatjes met kinderkopjes of relax in een van de parken die de stad rijk is.",
+      "bouwsteen": {
+        "title": "Geschiedenisles in Boston",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/boston/"
+      },
+      "photo": "public-garden"
+    },
+    {
+      "n": 15,
+      "date": "2027-07-24",
+      "title": "De Freedom Trail",
+      "loc": "Boston",
+      "travel": "Wandeldag in de stad",
+      "transport": null,
+      "desc": "Op de tweede dag in Boston regelt Riksja een bijzondere stadstour. Op eigen gelegenheid ga je naar het startpunt waar een gids in klederdracht op je wacht. De gids neemt je mee langs de Freedom Trail die je, letterlijk en figuurlijk, als een rode lijn door de stad voert.",
+      "todo": [
+        "Freedom Trail met gids in klederdracht (inbegrepen)",
+        "Uitrusten in de Public Garden",
+        "Lunch aan de Waterfront"
+      ],
+      "stop": 7,
+      "night": "2/2",
+      "notes": "Laat je meeslepen door de verhalen over vervlogen tijden. Wil je Boston op een bijzondere manier zien? Stap aan boord van een amfibievoertuig en bekijk de stad vanaf het land en het water; vraag de reisspecialist om deze excursie toe te voegen.",
+      "bouwsteen": {
+        "title": "Geschiedenisles in Boston",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/boston/"
+      },
+      "photo": "old-state-house"
+    },
+    {
+      "n": 16,
+      "date": "2027-07-25",
+      "title": "Met de trein naar New York",
+      "loc": "New York",
+      "travel": "Amtrak-trein Boston → New York",
+      "transport": {
+        "mode": "trein",
+        "from": "Boston",
+        "to": "New York",
+        "distance": null,
+        "duration": "ca. 4 uur",
+        "detail": "Amtrak · treintickets inbegrepen"
+      },
+      "desc": "Vandaag reis je in ongeveer 4 uur per trein van Boston naar New York. New York, alias de Big Apple: de stad der steden in Amerika. Wolkenkrabbers, het nachtleven, mode en achter elke straathoek schuilt een andere wereld met een klein café, een kunstboetiek of zeer exclusieve schoenenwinkel.",
+      "todo": [
+        "Treinreis Boston → New York",
+        "Inchecken in Manhattan",
+        "Times Square bij avond"
+      ],
+      "stop": 8,
+      "night": "1/4",
+      "notes": "Je slaapt in een sfeervol hotel in Manhattan, the place to be. De kamers zijn klein maar wel schoon en sfeervol.",
+      "bouwsteen": {
+        "title": "New York door de ogen van een Yankee",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
+      },
+      "photo": "times-square"
+    },
+    {
+      "n": 17,
+      "date": "2027-07-26",
+      "title": "New York van bovenaf",
+      "loc": "New York",
+      "travel": "Metro en wandelen",
+      "transport": null,
+      "desc": "Je hebt genoeg tijd om zelf de stad te ontdekken. De metro is de snelste manier om tussen de verschillende wijken en bezienswaardigheden te reizen. Ga New York vooral vanaf boven bekijken vanuit het Empire State Building, Top of the Rock of de Freedom Tower.",
+      "todo": [
+        "Empire State Building",
+        "Top of the Rock (cadeau bij boeken vóór 1 december 2026)",
+        "Freedom Tower"
+      ],
+      "stop": 8,
+      "night": "2/4",
+      "notes": "Vooraf je bezoek een beetje plannen is wel zo handig. De verdeling van de New York-dagen is een suggestie; het voorstel laat de invulling vrij.",
+      "bouwsteen": {
+        "title": "New York door de ogen van een Yankee",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
+      },
+      "photo": "lower-manhattan"
+    },
+    {
+      "n": 18,
+      "date": "2027-07-27",
+      "title": "Vrijheidsbeeld & Downtown",
+      "loc": "New York",
+      "travel": "Ferry en metro",
+      "transport": null,
+      "desc": "Vaar langs het Vrijheidsbeeld en ontdek Downtown Manhattan.",
+      "todo": [
+        "Varen langs het Vrijheidsbeeld",
+        "Downtown en Financial District",
+        "Avond in Manhattan"
+      ],
+      "stop": 8,
+      "night": "3/4",
+      "notes": "Tip: Riksja kan een fietstour langs de highlights van de stad regelen voor een goede eerste indruk. Laat het weten als je die wilt toevoegen.",
+      "bouwsteen": {
+        "title": "New York door de ogen van een Yankee",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
+      },
+      "photo": "liberty"
+    },
+    {
+      "n": 19,
+      "date": "2027-07-28",
+      "title": "Fietsen in Central Park",
+      "loc": "New York",
+      "travel": "Fietsen en wandelen",
+      "transport": null,
+      "desc": "Ga fietsen in Central Park. De keuze is aan jou: New York heeft voor iedereen iets.",
+      "todo": [
+        "Fietsen in Central Park",
+        "Vrije tijd in de stad",
+        "Laatste avond in New York"
+      ],
+      "stop": 8,
+      "night": "4/4",
+      "notes": "Benieuwd naar meer tips? Riksja heeft een New York blog met tips voor de stad.",
+      "bouwsteen": {
+        "title": "New York door de ogen van een Yankee",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/new-york/"
+      },
+      "photo": "bow-bridge"
+    },
+    {
+      "n": 20,
+      "date": "2027-07-29",
+      "title": "Internationale terugvlucht",
+      "loc": "New York",
+      "travel": "Transfer naar Newark en nachtvlucht",
+      "transport": {
+        "mode": "vlucht",
+        "from": "Newark",
+        "to": "Amsterdam",
+        "distance": null,
+        "duration": "7u 40m",
+        "detail": "LH6577 · Lufthansa · 17:35 → 07:15 (+1)"
+      },
+      "desc": "Helaas komt er dan weer een einde aan je reis. Op de laatste dag check je in voor de vlucht naar Europa, waarschijnlijk met honderden mooie foto’s en een onvergetelijke ervaring rijker.",
+      "todo": [
+        "Uitchecken",
+        "Naar Newark Airport (ca. 26 km, 45–60 min)",
+        "Vlucht LH6577 om 17:35"
+      ],
+      "stop": null,
+      "night": null,
+      "notes": "Let op: in het vluchtschema van het voorstel staat 29-08-2027 als datum voor de terugvlucht, terwijl het reisschema 29 juli aangeeft. Vraag Riksja dit te bevestigen.",
+      "bouwsteen": null,
+      "photo": "brooklyn"
+    },
+    {
+      "n": 21,
+      "date": "2027-07-30",
+      "title": "Aankomst in Nederland",
+      "loc": "Schiphol",
+      "travel": "Aankomst Schiphol om 07:15",
+      "transport": null,
+      "desc": "Om 07:15 land je op Schiphol. Een onvergetelijke rondreis door Canada en Amerika zit erop!",
+      "todo": [
+        "Aankomst Schiphol 07:15",
+        "Naar huis",
+        "Foto’s terugkijken"
+      ],
+      "stop": null,
+      "night": null,
+      "notes": "Alle vluchten worden uitgevoerd in economy class. Vluchttijden zijn altijd onder voorbehoud.",
+      "bouwsteen": null,
+      "photo": "schiphol"
+    }
+  ],
+  "pricing": {
+    "basis": "Reissom per persoon, gebaseerd op 4 volwassenen",
+    "persons": 4,
+    "groups": [
+      {
+        "title": "Landarrangement",
+        "rows": [
+          [
+            "Land arrangementen",
+            3894.0
+          ],
+          [
+            "Auto (totaal € 888,00)",
+            222.0
+          ],
+          [
+            "Reserveringskosten",
+            18.75
+          ],
+          [
+            "Calamiteitenfonds",
+            0.62
+          ],
+          [
+            "SGR verplichte bijdrage",
+            5.0
+          ]
+        ],
+        "totalLabel": "Totale reissom per persoon",
+        "total": 4140.37,
+        "color": "#c8402c"
+      },
+      {
+        "title": "Vluchtarrangement",
+        "rows": [
+          [
+            "Vluchttarief internationaal volwassenen",
+            490.0
+          ],
+          [
+            "Luchthavenbelastingen/veiligheids-/brandstoftoeslagen",
+            563.0
+          ],
+          [
+            "Service fee vluchtboeking",
+            10.0
+          ],
+          [
+            "Ticketingkosten",
+            22.0
+          ]
+        ],
+        "totalLabel": "Totale reissom voor de vluchten per persoon",
+        "total": 1085.0,
+        "color": "#2a7f9e"
+      }
+    ],
+    "local": [
+      {
+        "item": "One-way kosten huurauto",
+        "amount": "CAD 385,71",
+        "note": "Totaal voor de route; te betalen bij het ophalen van de huurauto."
+      },
+      {
+        "item": "Resortfee Cape Cod (Airstreamer)",
+        "amount": "$ 104",
+        "note": "Per verblijf, ter plaatse te betalen."
+      },
+      {
+        "item": "ESTA (VS)",
+        "amount": "$ 40 p.p.",
+        "note": "Verplicht, minstens 72 uur voor vertrek aanvragen."
+      },
+      {
+        "item": "ETA (Canada)",
+        "amount": "CAD 7 p.p.",
+        "note": "Verplicht bij vliegen via Canada; alleen per creditcard. Meer dan CAD 7 mag het niet kosten."
+      },
+      {
+        "item": "National Park Pass",
+        "amount": "$ 250 per auto",
+        "note": "Te koop bij het eerste nationale park op de route."
+      },
+      {
+        "item": "Park Loop Acadia",
+        "amount": "entree",
+        "note": "Op een deel van de rondweg wordt entree gevraagd (gedekt door de National Park Pass)."
+      },
+      {
+        "item": "E-bike Montréal (optioneel)",
+        "amount": "ca. € 15",
+        "note": "Meerprijs voor de fietstour."
+      },
+      {
+        "item": "Jonge bestuurder (21–25 jaar)",
+        "amount": "vanaf € 23 per dag",
+        "note": "Alleen als een bestuurder tussen 21 en 25 jaar oud is."
+      },
+      {
+        "item": "Mt. Washington tandradbaan",
+        "amount": "zelf boeken",
+        "note": "Niet via Riksja te boeken; via internet of ter plaatse."
+      }
+    ]
+  },
+  "schedule": [
+    [
+      "Gratis CO2-compensatie voor je reis",
+      "2027-07-10",
+      "2027-07-10",
+      0,
+      ""
+    ],
+    [
+      "Internationale heenvlucht",
+      "2027-07-10",
+      "2027-07-10",
+      0,
+      "exclusief, zie vluchtvoorstel"
+    ],
+    [
+      "Infokit by email",
+      "2027-07-10",
+      "2027-07-10",
+      0,
+      ""
+    ],
+    [
+      "Wereldstart Toronto",
+      "2027-07-10",
+      "2027-07-12",
+      2,
+      "Overnachtingen in stadhotel en boottocht op Lake Ontario"
+    ],
+    [
+      "Pick-up auto Toronto airport",
+      "2027-07-12",
+      "2027-07-12",
+      0,
+      ""
+    ],
+    [
+      "Huurauto one-way",
+      "2027-07-12",
+      "2027-07-12",
+      0,
+      "Exclusief, ter plaatse voldoen"
+    ],
+    [
+      "Boot naar bulderend water - Niagara Falls",
+      "2027-07-12",
+      "2027-07-13",
+      1,
+      "Overnachting in centraal gelegen hotel en boottocht op de Hornblower"
+    ],
+    [
+      "Thousand Islands in Lake Ontario (Kingston)",
+      "2027-07-13",
+      "2027-07-15",
+      2,
+      "Overnachtingen in eenvoudig hotel en boottocht Lake Ontario"
+    ],
+    [
+      "Welkom in charmant Montréal",
+      "2027-07-15",
+      "2027-07-17",
+      2,
+      "Overnachtingen in comfortabel stadhotel en fietstour met lokale gids en bagel"
+    ],
+    [
+      "New Hampshire: White Mountains",
+      "2027-07-17",
+      "2027-07-19",
+      2,
+      "Overnachting inclusief ontbijt in een charmante New England stijl Inn"
+    ],
+    [
+      "Ruige kusten in Acadia National Park - Maine",
+      "2027-07-19",
+      "2027-07-21",
+      2,
+      "Overnachting in hotel"
+    ],
+    [
+      "Cape Cod - special stay glamping",
+      "2027-07-21",
+      "2027-07-23",
+      2,
+      "Overnachting in Airstreamer (exclusief resortfee à $ 104 per verblijf)"
+    ],
+    [
+      "Walvis spot excursie per boot - Cape Cod",
+      "2027-07-22",
+      "2027-07-22",
+      0,
+      "Boottocht van 3-4 uur, incl. ticket"
+    ],
+    [
+      "Drop off huurauto luchthaven",
+      "2027-07-23",
+      "2027-07-23",
+      0,
+      ""
+    ],
+    [
+      "Geschiedenisles in Boston",
+      "2027-07-23",
+      "2027-07-25",
+      2,
+      "Overnachting in modern stadhotel, wandeltour met gids langs de Freedom Trail"
+    ],
+    [
+      "Amtrak trein(en) - reserveringskosten",
+      "2027-07-25",
+      "2027-07-25",
+      0,
+      ""
+    ],
+    [
+      "Treinreis Boston - New York",
+      "2027-07-25",
+      "2027-07-25",
+      0,
+      "Treintickets"
+    ],
+    [
+      "New York door de ogen van een Yankee - Manhattan",
+      "2027-07-25",
+      "2027-07-29",
+      4,
+      "Overnachtingen in een boutique hotel in Manhattan"
+    ],
+    [
+      "Internationale terugvlucht",
+      "2027-07-29",
+      "2027-07-30",
+      1,
+      "exclusief, zie vluchtvoorstel"
+    ],
+    [
+      "Huurauto Hyundai Venue SUV (of vergelijkbaar)",
+      "2027-07-12",
+      "2027-07-23",
+      "12 dagen",
+      "Autohuur inclusief alle km, lokale belastingen, 24-uurs service, WA/BA, CDW-verzekering (schade aan de huurauto), TP-verzekering (diefstal), dekking glas/banden/bodem/dakschade, vandalisme, dekking van het eigen risico"
+    ]
+  ],
+  "flights": [
+    {
+      "date": "10-07-2027",
+      "from": "Amsterdam (AMS)",
+      "to": "Toronto (YYZ)",
+      "number": "AC809",
+      "airline": "Air Canada",
+      "departure": "12:35",
+      "arrival": "14:30",
+      "duration": "7u 55m"
+    },
+    {
+      "date": "29-08-2027",
+      "from": "Newark (EWR)",
+      "to": "Amsterdam (AMS)",
+      "number": "LH6577",
+      "airline": "Lufthansa",
+      "departure": "17:35",
+      "arrival": "07:15 (+1)",
+      "duration": "7u 40m",
+      "warning": "Datum volgens het voorstel; het reisschema noemt 29 juli 2027."
+    }
+  ],
+  "flightNotes": [
+    "De internationale retourvlucht is niet inbegrepen in het landarrangement. Alle vluchten worden uitgevoerd in economy class.",
+    "Boek je de vluchten via Riksja, dan boek je een pakketreis: landarrangement en vluchten sluiten op elkaar aan en je bent dankzij de Europese richtlijnen extra beschermd tegen financiële risico’s en problemen ter plaatse.",
+    "Bagage is inbegrepen volgens de voorwaarden van de luchtvaartmaatschappij. Vluchten die je via Riksja boekt worden CO2-gecompenseerd.",
+    "Tip: neem een optie! Op deze vluchten zijn niet veel stoelen meer beschikbaar. Een optie is vrijblijvend; Riksja heeft daarvoor van alle reizigers de eerste voornaam en achternaam (precies zoals in het paspoort), geslacht en geboortedatum nodig."
+  ],
+  "practical": [
+    {
+      "icon": "🚙",
+      "title": "Huurauto",
+      "description": "Hyundai Venue SUV (of vergelijkbaar), 12 t/m 23 juli (12 dagen). Groot genoeg voor 4 personen en 2 à 3 koffers; zachte koffers en tassen passen beter dan grote harde koffers. Alle auto’s zijn automaat en er wordt rechts gereden."
+    },
+    {
+      "icon": "🪪",
+      "title": "Auto ophalen",
+      "description": "Alle bestuurders tonen een geldig rijbewijs en paspoort. Er wordt een kopie van de creditcard gemaakt voor de borg: neem een geldige creditcard op naam van de hoofdbestuurder mee. Geef vóór of bij boeking door wie de hoofdbestuurder is."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Verzekering huurauto",
+      "description": "WA-, all-risk- en diefstalverzekering zijn inbegrepen, met 24-uurs service. Geen eigen risico voor schade aan glas, bodem, dak en banden. Bestuurders van 21–25 jaar hebben een jonge-bestuurderpakket nodig (vanaf € 23 per dag)."
+    },
+    {
+      "icon": "🇺🇸",
+      "title": "ESTA",
+      "description": "Verplicht voor de VS met een Nederlands of Belgisch paspoort. Aanvragen minstens 72 uur voor vertrek, kosten $ 40 p.p. In Nederlandse documentnummers komt de letter O niet voor, wel het cijfer 0. Na bezoek aan Iran, Irak, Syrië, Libië, Jemen, Soedan of Somalië (na 1 maart 2011) of Cuba (na 12 januari 2021) is een regulier visum nodig."
+    },
+    {
+      "icon": "🇨🇦",
+      "title": "ETA",
+      "description": "Vlieg je via Canada, dan is een ETA (Electronic Travel Authorization) verplicht. Vraag die minimaal 4 weken voor vertrek aan; kosten CAD 7 p.p., alleen per creditcard. Meer dan CAD 7 mag het niet kosten."
+    },
+    {
+      "icon": "🛏️",
+      "title": "Kamers",
+      "description": "Voor 4 personen reserveert Riksja twee keer een tweepersoonskamer. Voorkeur voor een kamer met aparte bedden? Geef het door."
+    },
+    {
+      "icon": "🌲",
+      "title": "Nationale parken",
+      "description": "In de Amerikaanse nationale parken betaal je ter plekke entree. Bij het eerste park kun je een National Park Pass kopen voor $ 250 per auto; daarmee kun je vrijwel alle nationale parken bezoeken, behalve die van de Navajo Indianen."
+    },
+    {
+      "icon": "🏨",
+      "title": "Resortfees",
+      "description": "In veel Amerikaanse hotels worden verplichte resortfees gerekend voor bijvoorbeeld wifi of het zwembad. Volgens het voorstel zijn deze al inbegrepen, met uitzondering van de resortfee van $ 104 bij de Airstreamer op Cape Cod."
+    },
+    {
+      "icon": "🎁",
+      "title": "Riksja’s Wereldweken",
+      "description": "Boek vóór 1 december 2026 en ontvang een upgrade of belevenis cadeau. Voor Amerika is dit een Top of the Rock admission in New York."
+    },
+    {
+      "icon": "💳",
+      "title": "Geld",
+      "description": "Bij aankomst kun je op de luchthaven pinnen of wisselen. In alle steden en op de luchthavens kun je pinnen; grote hoeveelheden contant geld zijn niet nodig."
+    },
+    {
+      "icon": "🤝",
+      "title": "Onbezorgd op reis",
+      "description": "Riksja is aangesloten bij de ANVR en het Calamiteitenfonds. Bij een pakketreis ben je verzekerd van professionele hulp en repatriëring als de situatie daarom vraagt."
+    },
+    {
+      "icon": "🌍",
+      "title": "CO2-compensatie",
+      "description": "De reis wordt gratis CO2-gecompenseerd. Riksja doet dit sinds 2024 via een eigen Cooking stove-fabriek in Nepal (Chitwan), voor betere luchtkwaliteit en werkgelegenheid."
+    }
+  ],
+  "attention": [
+    "Datum terugvlucht: het vluchtschema noemt 29-08-2027, het reisschema 29 juli 2027.",
+    "One-way kosten huurauto: de tekst noemt $ 385,71 CAD, het autohuurblok nog “€ XXX”.",
+    "Resortfees: het voorstel zegt dat deze inbegrepen zijn, maar bij Cape Cod staat “exclusief resortfee à $ 104 per verblijf”.",
+    "De hotelnamen staan nog niet in het voorstel.",
+    "De tekst bij de terugvlucht spreekt van afscheid van Canada, maar je vliegt terug vanaf Newark (New York)."
+  ],
+  "agency": {
+    "why": [
+      {
+        "title": "Waarom Riksja Amerika?",
+        "text": "Riksja laat je de highlights zien, maar ook de onbekende plekken. De specialisten reizen zelf veelvuldig naar de bestemming en hebben zelf in alle kleinschalige en lokaal gerunde hotels geslapen. Samen met lokale partners zijn de activiteiten geselecteerd en logische routes uitgestippeld."
+      },
+      {
+        "title": "Hoe reis je?",
+        "text": "Met een eigen huurauto, zodat je de route zelf bepaalt. Riksja werkt alleen met verhuurmaatschappijen met goede service en je gaat volledig verzekerd op reis. Vooraf ontvang je route-informatie met tips; tijdens de reis kun je contact opnemen met de lokale agent."
+      },
+      {
+        "title": "Hoe beleef je?",
+        "text": "In comfortabele, zelf bezochte hotels, vooral gekozen op ligging. De beschikbaarheid is klein, daarom werkt Riksja met een poultje van hotels. Excursies worden vooraf geregeld, zodat je altijd een plek hebt."
+      },
+      {
+        "title": "Reis met hart voor de wereld",
+        "text": "Riksja Travel is B Corp™ en zet zich al meer dan 25 jaar in voor een eerlijke wereld. Doel: 85% van het geld van de landarrangementen komt lokaal terecht, met eerlijke lonen en goede werkomstandigheden."
+      },
+      {
+        "title": "Kom langs op kantoor",
+        "text": "In het reiscafé in Leiden bespreek je het reisplan rustig en in detail met je eigen reisspecialist: persoonlijk advies, al je vragen en eenvoudig boeken op één plek."
+      }
+    ],
+    "contact": {
+      "name": "Sophie",
+      "company": "Riksja Travel Amerika",
+      "phone": "+31 (0)71 891 01 28",
+      "email": "amerika@riksjatravel.nl",
+      "web": "https://www.riksjatravel.nl/amerika/"
+    },
+    "links": [
+      {
+        "title": "Bouwstenen Amerika",
+        "url": "https://www.riksjatravel.nl/amerika/bouwstenen/"
+      },
+      {
+        "title": "Bouwstenen Canada",
+        "url": "https://www.riksjatravel.nl/canada/bouwstenen/"
+      },
+      {
+        "title": "Auto huren in Amerika",
+        "url": "https://www.riksjatravel.nl/amerika/informatie/auto-huren/"
+      },
+      {
+        "title": "Auto huren in Canada",
+        "url": "https://www.riksjatravel.nl/canada/informatie/auto-huren/"
+      },
+      {
+        "title": "Riksja Travel B Corp",
+        "url": "https://www.riksjatravel.nl/b-corp/"
+      }
+    ]
+  },
+  "photos": {
+    "toronto-sunset": {
+      "path": "3/3c/Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg",
+      "caption": "Toronto bij zonsondergang, gezien vanaf de Toronto Islands",
+      "credit": "Jchmrt",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Sunset_Toronto_Skyline_Panorama_Crop_from_Snake_Island.jpg"
+    },
+    "toronto-snake": {
+      "path": "8/8b/Toronto_Skyline_from_Snake_Island%2C_September_11_2026_%2801%29.jpg",
+      "caption": "De skyline van Toronto aan Lake Ontario",
+      "credit": "Dillan Payne",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toronto_Skyline_from_Snake_Island,_September_11_2026_(01).jpg"
+    },
+    "toronto-yacht": {
+      "path": "2/2a/Toronto_Islands_Yacht_Club_and_Skyline.jpg",
+      "caption": "Toronto Islands met de skyline op de achtergrond",
+      "credit": "Jchmrt",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toronto_Islands_Yacht_Club_and_Skyline.jpg"
+    },
+    "niagara-boat": {
+      "path": "1/1c/Niagara_Falls_in_Ontario_with_Maid_of_the_Mist_boat_01.jpg",
+      "caption": "De Horseshoe Falls met een rondvaartboot",
+      "credit": "K2HWY",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_in_Ontario_with_Maid_of_the_Mist_boat_01.jpg"
+    },
+    "niagara-mist": {
+      "path": "e/e6/Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls%2C_West_view_20170418_1.jpg",
+      "caption": "Met de boot tot vlak bij de Horseshoe Falls",
+      "credit": "DXR",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls,_West_view_20170418_1.jpg"
+    },
+    "boldt": {
+      "path": "1/15/Ch%C3%A2teau_de_Boldt.jpg",
+      "caption": "Boldt Castle op Heart Island, Thousand Islands",
+      "credit": "Clément Bardot",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Boldt.jpg"
+    },
+    "montreal-day": {
+      "path": "2/2c/Montreal_-_QC_-_Skyline.jpg",
+      "caption": "Het centrum van Montréal vanaf Mont Royal",
+      "credit": "Taxiarchos228",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Montreal_-_QC_-_Skyline.jpg"
+    },
+    "old-montreal": {
+      "path": "c/ca/Place_Jacques-Cartier%2C_Vieux-Montr%C3%A9al%2C_Montreal%2C_Quebec_%2829440151264%29.jpg",
+      "caption": "Place Jacques-Cartier in Vieux-Montréal",
+      "credit": "Ken Lund from Reno, Nevada, USA",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Place_Jacques-Cartier,_Vieux-Montr%C3%A9al,_Montreal,_Quebec_(29440151264).jpg"
+    },
+    "bar-harbor": {
+      "path": "1/16/Bar_Harbor%2C_ME.jpg",
+      "caption": "Bar Harbor en Frenchman Bay vanuit de lucht",
+      "credit": "Quintin Soloviev",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bar_Harbor,_ME.jpg"
+    },
+    "otter-cliff": {
+      "path": "0/05/Acadia_National_Park%2C_Otter_Cliff.jpg",
+      "caption": "Otter Cliff in Acadia National Park",
+      "credit": "National Park Service / Matthew Lambert",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Acadia_National_Park,_Otter_Cliff.jpg"
+    },
+    "jordan-pond": {
+      "path": "c/c2/Jordan_Pond_Reflections_%2819247942291%29.jpg",
+      "caption": "Jordan Pond in Acadia National Park",
+      "credit": "Eric Kilby from Somerville, MA, USA",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jordan_Pond_Reflections_(19247942291).jpg"
+    },
+    "boston": {
+      "path": "8/86/Boston_skyline_from_East_Boston_November_2016_panorama_1.jpg",
+      "caption": "De skyline van Boston aan de haven",
+      "credit": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Boston_skyline_from_East_Boston_November_2016_panorama_1.jpg"
+    },
+    "midtown": {
+      "path": "0/05/Midtown_Manhattan_from_Weehawken_September_2021_panorama_2.jpg",
+      "caption": "Midtown Manhattan vanaf de Hudson",
+      "credit": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Midtown_Manhattan_from_Weehawken_September_2021_panorama_2.jpg"
+    },
+    "times-square": {
+      "path": "3/39/Times_Square%2C_NYC_at_night_-_August_2025.jpg",
+      "caption": "Times Square bij avond",
+      "credit": "Nielsoncaetanosalmeron",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Times_Square,_NYC_at_night_-_August_2025.jpg"
+    },
+    "liberty": {
+      "path": "9/93/Statue_of_Liberty_and_a_sightseeing_boat%2C_Liberty_Island%2C_New_York.jpg",
+      "caption": "Het Vrijheidsbeeld op Liberty Island",
+      "credit": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Liberty_and_a_sightseeing_boat,_Liberty_Island,_New_York.jpg"
+    },
+    "bow-bridge": {
+      "path": "1/14/Bow_Bridge_with_the_Central_Park_South_skyline%2C_Central_Park%2C_Manhattan%2C_New_York.jpg",
+      "caption": "Bow Bridge in Central Park",
+      "credit": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bow_Bridge_with_the_Central_Park_South_skyline,_Central_Park,_Manhattan,_New_York.jpg"
+    },
+    "brooklyn": {
+      "path": "f/f0/Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg",
+      "caption": "Brooklyn Bridge en Lower Manhattan",
+      "credit": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach,_New_York.jpg"
+    },
+    "lower-manhattan": {
+      "path": "6/67/2024-11-17-Lower_Manhattan-0593.jpg",
+      "caption": "Lower Manhattan bij schemering",
+      "credit": "Superbass",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2024-11-17-Lower_Manhattan-0593.jpg"
+    },
+    "schiphol": {
+      "path": "a/a8/At_Amsterdam_Airport_Schiphol_2024_01.jpg",
+      "caption": "Thuiskomst op Schiphol",
+      "credit": "Mike Peel",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:At_Amsterdam_Airport_Schiphol_2024_01.jpg"
+    },
+    "kingston": {
+      "path": "d/d4/Waterfront%2C_Kingston%2C_East_view_20170416_1.jpg",
+      "caption": "De waterkant van Kingston aan Lake Ontario",
+      "credit": "DXR",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Waterfront,_Kingston,_East_view_20170416_1.jpg"
+    },
+    "north-conway": {
+      "path": "d/d8/Intervale_Scenic_vista_North_Conway_New_Hampshire_sunset.jpg",
+      "caption": "Zonsondergang boven de White Mountains bij North Conway",
+      "credit": "EgorovaSvetlana",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Intervale_Scenic_vista_North_Conway_New_Hampshire_sunset.jpg"
+    },
+    "dianas-bath": {
+      "path": "c/cb/Diana%27s_Baths_in_the_fall.jpg",
+      "caption": "De watervallen van Diana's Bath bij North Conway",
+      "credit": "Tophyross79",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Diana%27s_Baths_in_the_fall.jpg"
+    },
+    "cog-railway": {
+      "path": "d/d8/Mount_Washington_Cog_Railway_October_2021_024.jpg",
+      "caption": "De tandradbaan naar de top van Mount Washington",
+      "credit": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Mount_Washington_Cog_Railway_October_2021_024.jpg"
+    },
+    "airstream": {
+      "path": "7/7a/Airstream_travel_trailer%2C_Lakolk_beach%2C_R%C3%B8m%C3%B8_island%2C_Denmark_%282024-08-19%29.jpg",
+      "caption": "Een Airstream-caravan, zoals op de glamping bij Falmouth",
+      "credit": "Olgierd Rudak",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Airstream_travel_trailer,_Lakolk_beach,_R%C3%B8m%C3%B8_island,_Denmark_(2024-08-19).jpg"
+    },
+    "nobska": {
+      "path": "2/29/Nobska_Lighthouse_-_Cape_Cod%2C_MA.jpg",
+      "caption": "Nobska Lighthouse bij Falmouth, Cape Cod",
+      "credit": "Gregg Squeglia",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse_-_Cape_Cod,_MA.jpg"
+    },
+    "whale": {
+      "path": "c/ca/Humpback_stellwagen.JPG",
+      "caption": "Een bultrug bij Stellwagen Bank",
+      "credit": "Whit Welles",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Humpback_stellwagen.JPG"
+    },
+    "public-garden": {
+      "path": "f/fe/Boston_Public_Garden_May_2018_002.jpg",
+      "caption": "De Public Garden in Boston",
+      "credit": "King of Hearts",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Boston_Public_Garden_May_2018_002.jpg"
+    },
+    "old-state-house": {
+      "path": "7/7b/Old_State_House%2C_Boston.jpg",
+      "caption": "Het Old State House aan de Freedom Trail",
+      "credit": "Marco Almbauer",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Old_State_House,_Boston.jpg"
+    }
+  }
+}
