@@ -11,14 +11,13 @@ Live: https://mvaneeten.github.io/Vakantie2027R/
 - Dag voor dag: foto, reistijd, programma, tips, het verblijf van die nacht en een link "Meer over …" met informatie over dat onderdeel.
 - Kaart (OpenStreetMap) met de autoroute en de treinreis Boston → New York.
 - Verblijven: per stop de in- en uitcheckdatum, het type hotel en wat er inbegrepen is.
-- Vluchten en het volledige reisschema ("Jouw reis in het kort").
 
 ## Bestanden
 
 - index.html: pagina-opbouw.
 - vakantie.json: alle reisgegevens uit het voorstel. Dit is de enige gegevensbron.
 - app.js: leest vakantie.json, controleert de gegevens en bouwt de pagina op.
-- styles.css: basisopmaak, met onderaan het eigen thema van deze site.
+- styles.css: de vormgeving (donker thema, desktop en mobiel).
 
 ## Lokaal bekijken
 
