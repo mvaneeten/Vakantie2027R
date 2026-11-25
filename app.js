@@ -1,4 +1,4 @@
-const STOP_COLORS = ['#ff6a3d', '#ffb020', '#a3e635', '#34d399', '#22d3ee', '#60a5fa', '#a78bfa', '#f472b6', '#e5e7eb'];
+const STOP_COLORS = ['#ff6a3d', '#ffb020', '#a3e635', '#34d399', '#2dd4bf', '#22d3ee', '#60a5fa', '#a78bfa', '#f472b6', '#e5e7eb'];
 const MODE = {auto: {icon: '🚗', label: 'Huurauto'}, trein: {icon: '🚆', label: 'Trein'}, vlucht: {icon: '✈', label: 'Vliegtuig'}};
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const commonsUrl = (path, width) => `https://upload.wikimedia.org/wikipedia/commons/thumb/${path}/${width}px-${path.split('/').pop()}`;

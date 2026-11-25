@@ -1,7 +1,7 @@
 # Canada & Amerika 2027
 
-Website van een reisvoorstel: rondreis van Toronto naar New York, 10–30 juli 2027, 4 volwassenen.
-20 nachten (19 hotelnachten en de nachtvlucht terug).
+Website van een reisvoorstel: rondreis van Toronto naar New York, 10–31 juli 2027, 4 volwassenen.
+21 nachten (20 hotelnachten en de nachtvlucht terug).
 
 Live: https://mvaneeten.github.io/Vakantie2027R/
 

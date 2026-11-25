@@ -3,8 +3,8 @@
   "trip": {
     "title": "Canada & Amerika 2027",
     "startDate": "2027-07-10",
-    "endDate": "2027-07-30",
-    "returnFlightDate": "2027-07-29",
+    "endDate": "2027-07-31",
+    "returnFlightDate": "2027-07-30",
     "travelers": 4,
     "travelerDescription": "4 volwassenen",
     "currency": "EUR",
@@ -13,14 +13,14 @@
       "Canada",
       "Amerika"
     ],
-    "heroDescription": "Een roadtrip van Toronto via Niagara Falls, de Thousand Islands en Montréal naar de White Mountains, de kust van Maine, Cape Cod, Boston en New York.",
-    "intro": "Het reisvoorstel: 21 dagen en 20 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
+    "heroDescription": "Een roadtrip van Toronto via Niagara Falls, de Thousand Islands en Montréal naar de Green Mountains van Vermont, de White Mountains, de kust van Maine, Cape Cod, Boston en New York.",
+    "intro": "Het reisvoorstel: 22 dagen en 21 nachten. We vliegen naar Toronto, halen daar de huurauto op en rijden langs Niagara Falls, de Thousand Islands en Montréal de grens over naar Vermont, New Hampshire, Maine en Cape Cod. In Boston leveren we de auto in en met de trein gaan we door naar New York, waar we vier nachten blijven.",
     "photoNotice": "Sfeerbeelden van Wikimedia Commons; het zijn geen foto’s van de geboekte hotels.",
     "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Voor 4 personen worden twee tweepersoonskamers gereserveerd; heb je een voorkeur voor aparte bedden, geef dit dan door."
   },
   "route": {
-    "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Montreal,+Quebec/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
-    "distanceLabel": "± 2.300 km met de huurauto · rijtijden berekend via OpenStreetMap, zonder pauzes en verkeer",
+    "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Rockport,+Ontario/Montreal,+Quebec/Stowe,+VT/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
+    "distanceLabel": "± 2.200 km met de huurauto · rijtijden berekend via OpenStreetMap, zonder pauzes en verkeer",
     "lineDescription": "De stippellijn verbindt de verblijfplaatsen; van Boston naar New York reis je met de trein. Rijtijden zijn indicatief."
   },
   "stops": [
@@ -55,18 +55,18 @@
       "included": "Overnachting in centraal gelegen hotel en boottocht op de Hornblower"
     },
     {
-      "name": "Kingston",
+      "name": "Rockport",
       "sub": "Thousand Islands · Ontario · Canada",
-      "lat": 44.2312,
-      "lon": -76.486,
+      "lat": 44.3812,
+      "lon": -75.9375,
       "nights": 2,
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
       },
-      "photo": "kingston",
-      "hotel": "Eenvoudig hotel in Kingston",
-      "hotelDescription": "Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
+      "photo": "boldt",
+      "hotel": "Motel aan het water in Rockport",
+      "hotelDescription": "Een comfortabel motel aan de oever van de Saint Lawrence in Rockport, de meeste kamers met uitzicht op het water. Er is een restaurant bij het motel en de boottocht door de Thousand Islands vertrekt vlak bij.",
       "included": "Overnachtingen in eenvoudig hotel en boottocht Lake Ontario"
     },
     {
@@ -83,6 +83,21 @@
       "hotel": "Groot en modern stadshotel",
       "hotelDescription": "Je verblijft in een groot en modern stadhotel, gelegen op ongeveer 20 minuten van het beroemde Place Jacques Cartier.",
       "included": "Overnachtingen in comfortabel stadhotel en fietstour met lokale gids en bagel"
+    },
+    {
+      "name": "Stowe",
+      "sub": "Green Mountains · Vermont · VS",
+      "lat": 44.4654,
+      "lon": -72.6874,
+      "nights": 1,
+      "bouwsteen": {
+        "title": "Vermont: Green Mountains",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/vermont/"
+      },
+      "photo": "stowe-view",
+      "hotel": "Bergresort in Stowe",
+      "hotelDescription": "Een bergresort in Stowe, midden in de Green Mountains van Vermont. Stowe is een bekend skidorp met leuke winkeltjes en koffietentjes; in de zomer is het een uitvalsbasis voor wandelingen in de bergen.",
+      "included": "Overnachting in een bergresort in Stowe"
     },
     {
       "name": "White Mountains",
@@ -244,26 +259,26 @@
     {
       "n": 4,
       "date": "2027-07-13",
-      "title": "Niagara Falls → Kingston",
-      "loc": "Kingston",
-      "travel": "Rijdag langs Lake Ontario",
+      "title": "Niagara Falls → Thousand Islands",
+      "loc": "Rockport",
+      "travel": "Rijdag langs Lake Ontario, via Kingston",
       "transport": {
         "mode": "auto",
         "from": "Niagara Falls",
-        "to": "Kingston",
-        "distance": "ca. 390 km",
-        "duration": "ca. 4,5–5 uur",
-        "detail": null
+        "to": "Rockport",
+        "distance": "ca. 445 km",
+        "duration": "ca. 5–5,5 uur",
+        "detail": "Via Kingston, een fijne plek voor een lunchstop"
       },
-      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
+      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Onderweg stop je in Kingston, een van de oudste steden van Canada. Je slaapt twee nachten in een comfortabel motel aan het water in Rockport.",
       "todo": [
         "Rit langs Lake Ontario",
-        "Inchecken in Kingston",
-        "Avond aan de waterkant"
+        "Lunchstop in Kingston",
+        "Inchecken in Rockport, met uitzicht op het water"
       ],
       "stop": 2,
       "night": "1/2",
-      "notes": "Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
+      "notes": "Kingston heeft de oudste Farmer's Market van Canada, en verder lokale brouwerijen en boetiekjes. Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
@@ -274,18 +289,18 @@
       "n": 5,
       "date": "2027-07-14",
       "title": "Thousand Islands & Boldt Castle",
-      "loc": "Kingston",
+      "loc": "Rockport",
       "travel": "Boottocht, geen lange autorit",
       "transport": null,
       "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
       "todo": [
-        "Boottocht Lake Ontario (inbegrepen)",
+        "Boottocht vanuit Rockport (inbegrepen, ca. 2 uur)",
         "Boldt Castle vanaf het water",
-        "Farmer's Market in Kingston"
+        "Thousand Island dressing proeven"
       ],
       "stop": 2,
       "night": "2/2",
-      "notes": "In Kingston bevindt zich de oudste Farmer's Market van Canada. De markt is van maandag t/m vrijdag tussen 09.00 en 17.00 uur op de Grote Markt in Kingston.",
+      "notes": "De boottocht met gids vertrekt een paar keer per dag vanuit Rockport en duurt ongeveer twee uur. Je hoort over de scheepvaart op de Grote Meren, scheepswrakken en het ontstaan van de Thousand Island dressing. De rest van de dag kun je genieten van het uitzicht vanaf het motel.",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
@@ -300,10 +315,10 @@
       "travel": "Rijdag naar Québec",
       "transport": {
         "mode": "auto",
-        "from": "Kingston",
+        "from": "Rockport",
         "to": "Montréal",
-        "distance": "ca. 295 km",
-        "duration": "ca. 3,5–4 uur",
+        "distance": "ca. 245 km",
+        "duration": "ca. 3–3,5 uur",
         "detail": null
       },
       "desc": "Vervolgens staat de metropool Montréal op het programma. Bij aankomst vallen de hoge gebouwen wel op maar de oude stad heeft zeker de Franse charme. Wandel door de kleine steegjes met kinderkopjes, je waant je echt in Parijs! Bezoek de leuke boetiekjes en de vele gezellige restaurants en cafés.",
@@ -346,26 +361,55 @@
     {
       "n": 8,
       "date": "2027-07-17",
-      "title": "Op naar de White Mountains",
-      "loc": "North Conway",
+      "title": "Naar de Green Mountains van Vermont",
+      "loc": "Stowe",
       "travel": "Rijdag, grensovergang naar de VS",
       "transport": {
         "mode": "auto",
         "from": "Montréal",
-        "to": "North Conway",
-        "distance": "ca. 350 km",
-        "duration": "ca. 4,5–5 uur",
+        "to": "Stowe",
+        "distance": "ca. 175 km",
+        "duration": "ca. 2,5–3 uur",
         "detail": "Inclusief grensovergang Canada → VS"
+      },
+      "desc": "Vandaag steek je de grens over naar de Verenigde Staten en rijd je naar Stowe, midden in de Green Mountains van Vermont. Je slaapt een nacht in een bergresort. Neem de mooie binnenwegen met overdekte houten bruggen en witte kerkjes, of rij een stuk over de schilderachtige Route 100.",
+      "todo": [
+        "Grensovergang Canada → VS",
+        "Route 100 en overdekte bruggen",
+        "Wandelen in de Green Mountains"
+      ],
+      "notes": "Houd paspoorten en ESTA bij de hand voor de grens. Op ongeveer een half uur rijden ligt de ijsfabriek van Ben & Jerry’s, met proeverijtjes en de Flavour Graveyard. In het dorp Stowe vind je leuke winkeltjes en koffietentjes.",
+      "bouwsteen": {
+        "title": "Vermont: Green Mountains",
+        "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/vermont/"
+      },
+      "photo": "stowe-church",
+      "stop": 4,
+      "night": "1/1"
+    },
+    {
+      "n": 9,
+      "date": "2027-07-18",
+      "title": "Op naar de White Mountains",
+      "loc": "North Conway",
+      "travel": "Rijdag door Vermont en New Hampshire",
+      "transport": {
+        "mode": "auto",
+        "from": "Stowe",
+        "to": "North Conway",
+        "distance": "ca. 185 km",
+        "duration": "ca. 3 uur",
+        "detail": null
       },
       "desc": "Doe rustig aan als je naar je hotel in North Conway rijdt, want de natuur van New Hampshire is de reden dat je hier bent: groene bossen zover je kunt kijken, met daarachter de toppen van de White Mountains. Bergrivieren kabbelen onder de bruggen door en eekhoorntjes schieten weg tussen de takken.",
       "todo": [
-        "Grensovergang Canada → VS",
+        "Rit door Vermont en New Hampshire",
         "Inchecken in de Inn",
         "Wandelen langs Diana's Bath"
       ],
-      "stop": 4,
+      "stop": 5,
       "night": "1/2",
-      "notes": "Als je eenmaal bent ingecheckt kun je de omgeving verkennen. Ga etalages kijken in het knusse dorp North Conway, of maak een wandeltocht door de natuur, bijvoorbeeld langs de watervallen van Diana's Bath. Als je je zwemspullen meeneemt, kun je hier zelfs even 'in bad'. Houd paspoorten en ESTA bij de hand voor de grens.",
+      "notes": "Als je eenmaal bent ingecheckt kun je de omgeving verkennen. Ga etalages kijken in het knusse dorp North Conway, of maak een wandeltocht door de natuur, bijvoorbeeld langs de watervallen van Diana's Bath. Als je je zwemspullen meeneemt, kun je hier zelfs even 'in bad'.",
       "bouwsteen": {
         "title": "New Hampshire: White Mountains",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
@@ -373,8 +417,8 @@
       "photo": "dianas-bath"
     },
     {
-      "n": 9,
-      "date": "2027-07-18",
+      "n": 10,
+      "date": "2027-07-19",
       "title": "Mount Washington",
       "loc": "North Conway",
       "travel": "Uitstapjes in de omgeving",
@@ -385,7 +429,7 @@
         "Wandelen in de White Mountains",
         "Dorpje North Conway"
       ],
-      "stop": 4,
+      "stop": 5,
       "night": "2/2",
       "notes": "Deze tocht zit niet in het voorstel; je boekt hem gemakkelijk zelf via internet of ter plaatse. Het ontbijt in de Inn is inbegrepen.",
       "bouwsteen": {
@@ -395,8 +439,8 @@
       "photo": "cog-railway"
     },
     {
-      "n": 10,
-      "date": "2027-07-19",
+      "n": 11,
+      "date": "2027-07-20",
       "title": "Naar de ruige kust van Maine",
       "loc": "Acadia National Park",
       "travel": "Rijdag naar de kust",
@@ -414,7 +458,7 @@
         "Inchecken bij Acadia",
         "Eerste blik op de kust"
       ],
-      "stop": 5,
+      "stop": 6,
       "night": "1/2",
       "notes": "Bij het eerste nationale park op je route kun je een National Park Pass per auto kopen. Met deze pas kun je vrijwel alle nationale parken bezoeken.",
       "bouwsteen": {
@@ -424,8 +468,8 @@
       "photo": "bar-harbor"
     },
     {
-      "n": 11,
-      "date": "2027-07-20",
+      "n": 12,
+      "date": "2027-07-21",
       "title": "Acadia National Park",
       "loc": "Acadia National Park",
       "travel": "Park Loop Road en korte ritten",
@@ -436,7 +480,7 @@
         "Sand Beach",
         "Uitzicht vanaf Mount Cadillac"
       ],
-      "stop": 5,
+      "stop": 6,
       "night": "2/2",
       "notes": "Vanaf Mount Cadillac kijk je uit over het park en de oceaan. In de zomer is het druk; neem de gratis shuttle of reserveer van tevoren een plekje op de weg naar de top. Picknick met uitzicht, of zoek een rustige plek bij een waterval. Tip: blijf je wat langer, dan kan er een boottocht van twee uur met de lokale kreeftenboot worden ingepland.",
       "bouwsteen": {
@@ -446,8 +490,8 @@
       "photo": "jordan-pond"
     },
     {
-      "n": 12,
-      "date": "2027-07-21",
+      "n": 13,
+      "date": "2027-07-22",
       "title": "Naar Cape Cod: slapen in een Airstreamer",
       "loc": "Cape Cod",
       "travel": "Lange rijdag naar Cape Cod",
@@ -465,7 +509,7 @@
         "Inchecken op de glamping",
         "Kampvuur met live muziek"
       ],
-      "stop": 6,
+      "stop": 7,
       "night": "1/2",
       "notes": "Let op: voor dit verblijf geldt een resortfee die je ter plaatse betaalt. Er is een restaurant als je geen zin hebt om zelf te koken, en er zijn gratis fietsen. Sluit 's avonds aan bij het kampvuur met live muziek voor het echte kampeergevoel.",
       "bouwsteen": {
@@ -475,8 +519,8 @@
       "photo": "nobska"
     },
     {
-      "n": 13,
-      "date": "2027-07-22",
+      "n": 14,
+      "date": "2027-07-23",
       "title": "Walvissen spotten",
       "loc": "Cape Cod",
       "travel": "Boottocht van 3 à 4 uur",
@@ -487,7 +531,7 @@
         "Ferry naar Martha's Vineyard of Nantucket (optioneel)",
         "Relaxen op de camping of het strand"
       ],
-      "stop": 6,
+      "stop": 7,
       "night": "2/2",
       "notes": "Onze tip: geniet van het zicht en maak niet te veel foto’s, want het gaat zo voorbij. Draag een warme trui of jas, het kan koel zijn op zee. De vertrektijd hangt af van het getij; de tour wordt meestal in de ochtend geboekt (rond 09.30 uur), maar een middagvertrek (rond 15.00 uur) kan ook.",
       "bouwsteen": {
@@ -497,8 +541,8 @@
       "photo": "whale"
     },
     {
-      "n": 14,
-      "date": "2027-07-23",
+      "n": 15,
+      "date": "2027-07-24",
       "title": "Auto inleveren & Boston",
       "loc": "Boston",
       "travel": "Rit naar Boston Logan, auto inleveren",
@@ -516,7 +560,7 @@
         "Inchecken in het centrum",
         "Slenteren door straatjes met kinderkopjes"
       ],
-      "stop": 7,
+      "stop": 8,
       "night": "1/2",
       "notes": "Je hotel is gelegen in het centrum, op loopafstand van vele restaurants en winkels. Slenter door smalle straatjes met kinderkopjes of relax in een van de parken die de stad rijk is.",
       "bouwsteen": {
@@ -526,8 +570,8 @@
       "photo": "public-garden"
     },
     {
-      "n": 15,
-      "date": "2027-07-24",
+      "n": 16,
+      "date": "2027-07-25",
       "title": "De Freedom Trail",
       "loc": "Boston",
       "travel": "Wandeldag in de stad",
@@ -538,7 +582,7 @@
         "Uitrusten in de Public Garden",
         "Lunch aan de Waterfront"
       ],
-      "stop": 7,
+      "stop": 8,
       "night": "2/2",
       "notes": "Laat je meeslepen door de verhalen over vervlogen tijden. Wil je Boston op een bijzondere manier zien? Stap aan boord van een amfibievoertuig en bekijk de stad vanaf het land en het water; deze excursie kan aan de reis worden toegevoegd.",
       "bouwsteen": {
@@ -548,8 +592,8 @@
       "photo": "old-state-house"
     },
     {
-      "n": 16,
-      "date": "2027-07-25",
+      "n": 17,
+      "date": "2027-07-26",
       "title": "Met de trein naar New York",
       "loc": "New York",
       "travel": "Amtrak-trein Boston → New York",
@@ -567,7 +611,7 @@
         "Inchecken in Manhattan",
         "Times Square bij avond"
       ],
-      "stop": 8,
+      "stop": 9,
       "night": "1/4",
       "notes": "Je slaapt in een sfeervol hotel in Manhattan, the place to be. De kamers zijn klein maar wel schoon en sfeervol.",
       "bouwsteen": {
@@ -577,8 +621,8 @@
       "photo": "times-square"
     },
     {
-      "n": 17,
-      "date": "2027-07-26",
+      "n": 18,
+      "date": "2027-07-27",
       "title": "New York van bovenaf",
       "loc": "New York",
       "travel": "Metro en wandelen",
@@ -589,7 +633,7 @@
         "Top of the Rock",
         "Freedom Tower"
       ],
-      "stop": 8,
+      "stop": 9,
       "night": "2/4",
       "notes": "Vooraf je bezoek een beetje plannen is wel zo handig. De verdeling van de New York-dagen is een suggestie; het voorstel laat de invulling vrij.",
       "bouwsteen": {
@@ -599,8 +643,8 @@
       "photo": "lower-manhattan"
     },
     {
-      "n": 18,
-      "date": "2027-07-27",
+      "n": 19,
+      "date": "2027-07-28",
       "title": "Vrijheidsbeeld & Downtown",
       "loc": "New York",
       "travel": "Ferry en metro",
@@ -611,7 +655,7 @@
         "Downtown en Financial District",
         "Avond in Manhattan"
       ],
-      "stop": 8,
+      "stop": 9,
       "night": "3/4",
       "notes": "Tip: een fietstour langs de highlights van de stad kan aan de reis worden toegevoegd, voor een goede eerste indruk.",
       "bouwsteen": {
@@ -621,8 +665,8 @@
       "photo": "liberty"
     },
     {
-      "n": 19,
-      "date": "2027-07-28",
+      "n": 20,
+      "date": "2027-07-29",
       "title": "Fietsen in Central Park",
       "loc": "New York",
       "travel": "Fietsen en wandelen",
@@ -633,7 +677,7 @@
         "Vrije tijd in de stad",
         "Laatste avond in New York"
       ],
-      "stop": 8,
+      "stop": 9,
       "night": "4/4",
       "notes": "Plan vooraf een beetje wat je nog wilt zien, dan haal je het meeste uit de laatste volle dag.",
       "bouwsteen": {
@@ -643,8 +687,8 @@
       "photo": "bow-bridge"
     },
     {
-      "n": 20,
-      "date": "2027-07-29",
+      "n": 21,
+      "date": "2027-07-30",
       "title": "Internationale terugvlucht",
       "loc": "New York",
       "travel": "Transfer naar Newark en nachtvlucht",
@@ -653,24 +697,24 @@
         "from": "Newark",
         "to": "Amsterdam",
         "distance": null,
-        "duration": "7u 40m",
-        "detail": "LH6577 · Lufthansa · 17:35 → 07:15 (+1)"
+        "duration": "7u 25m",
+        "detail": "LH6577 · Lufthansa · 17:50 → 07:15 (+1)"
       },
       "desc": "Helaas komt er dan weer een einde aan je reis. Op de laatste dag check je in voor de vlucht naar Europa, waarschijnlijk met honderden mooie foto’s en een onvergetelijke ervaring rijker.",
       "todo": [
         "Uitchecken",
         "Naar Newark Airport (ca. 26 km, 45–60 min)",
-        "Vlucht LH6577 om 17:35"
+        "Vlucht LH6577 om 17:50"
       ],
       "stop": null,
       "night": null,
-      "notes": "Let op: in het vluchtschema van het voorstel staat 29-08-2027 als datum voor de terugvlucht, terwijl het reisschema 29 juli aangeeft. Laat dit bevestigen voordat je boekt.",
+      "notes": "Na het uitchecken hangt de resterende tijd af van je bagage: vraag of je die in het hotel kunt laten staan. Plan ruim tijd in voor de rit naar Newark en het inchecken.",
       "bouwsteen": null,
       "photo": "brooklyn"
     },
     {
-      "n": 21,
-      "date": "2027-07-30",
+      "n": 22,
+      "date": "2027-07-31",
       "title": "Aankomst in Nederland",
       "loc": "Schiphol",
       "travel": "Aankomst Schiphol om 07:15",
@@ -884,6 +928,20 @@
       "credit": "Marco Almbauer",
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File:Old_State_House,_Boston.jpg"
+    },
+    "stowe-view": {
+      "path": "a/a0/View_from_the_top_of_Stowe_mountain_in_Vermont%2C_USA.jpg",
+      "caption": "Uitzicht over de Green Mountains bij Stowe",
+      "credit": "Phil8684",
+      "license": "CC BY 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:View_from_the_top_of_Stowe_mountain_in_Vermont,_USA.jpg"
+    },
+    "stowe-church": {
+      "path": "5/53/Stowe_VT_Community_Church_%2851626887231%29.jpg",
+      "caption": "Stowe Community Church in Vermont",
+      "credit": "Shiva Shenoy from Flower Mound, United States",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stowe_VT_Community_Church_(51626887231).jpg"
     }
   }
 }
