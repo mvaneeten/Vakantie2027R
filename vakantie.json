@@ -95,8 +95,8 @@
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/vermont/"
       },
       "photo": "stowe-view",
-      "hotel": "Bergresort in Stowe",
-      "hotelDescription": "Een bergresort in Stowe, midden in de Green Mountains van Vermont. Stowe is een bekend skidorp met leuke winkeltjes en koffietentjes; in de zomer is het een uitvalsbasis voor wandelingen in de bergen.",
+      "hotel": "Von Trapp Family Lodge",
+      "hotelDescription": "Je slaapt in de Von Trapp Family Lodge in het wintersportplaatsje Stowe. Ja, de familie Von Trapp van The Sound of Music: zij vestigden zich hier omdat het groene berglandschap hen aan Oostenrijk deed denken. De lodge heeft een binnen- en buitenzwembad en drie restaurants.",
       "included": "Overnachting in een bergresort in Stowe"
     },
     {
@@ -361,7 +361,7 @@
     {
       "n": 8,
       "date": "2027-07-17",
-      "title": "Naar de Green Mountains van Vermont",
+      "title": "Naar de Von Trapp Family Lodge in Stowe",
       "loc": "Stowe",
       "travel": "Rijdag, grensovergang naar de VS",
       "transport": {
@@ -372,13 +372,13 @@
         "duration": "ca. 2,5–3 uur",
         "detail": "Inclusief grensovergang Canada → VS"
       },
-      "desc": "Vandaag steek je de grens over naar de Verenigde Staten en rijd je naar Stowe, midden in de Green Mountains van Vermont. Je slaapt een nacht in een bergresort. Neem de mooie binnenwegen met overdekte houten bruggen en witte kerkjes, of rij een stuk over de schilderachtige Route 100.",
+      "desc": "Vandaag steek je de grens over naar de Verenigde Staten en rijd je naar het wintersportplaatsje Stowe in de Green Mountains van Vermont. Je checkt in bij de Von Trapp Family Lodge: inderdaad, de familie Von Trapp van The Sound of Music. Zij hebben zich hier gevestigd omdat het groene berglandschap hen zo aan Oostenrijk deed denken, en die associatie is goed te begrijpen.",
       "todo": [
         "Grensovergang Canada → VS",
-        "Route 100 en overdekte bruggen",
-        "Wandelen in de Green Mountains"
+        "Inchecken bij de Von Trapp Family Lodge",
+        "Avondeten in de Beerhall"
       ],
-      "notes": "Houd paspoorten en ESTA bij de hand voor de grens. Op ongeveer een half uur rijden ligt de ijsfabriek van Ben & Jerry’s, met proeverijtjes en de Flavour Graveyard. In het dorp Stowe vind je leuke winkeltjes en koffietentjes.",
+      "notes": "In de zomer kun je hier mountainbiken of een hike maken over een van de vele rotspaden. Uitrusten doe je bij het binnen- of buitenzwembad, en 's avonds eet je in een van de drie restaurants van de lodge. Een aanrader is de Beerhall, waar je met een shuttle naartoe wordt gebracht: aan lange houten tafels drink je bier uit eigen brouwerij en eet je de lekkerste schnitzels. De familie stuurde de kok zelfs naar Oostenrijk om te leren hoe je ze het beste maakt. Houd paspoorten en ESTA bij de hand voor de grens.",
       "bouwsteen": {
         "title": "Vermont: Green Mountains",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/vermont/"
@@ -390,26 +390,26 @@
     {
       "n": 9,
       "date": "2027-07-18",
-      "title": "Op naar de White Mountains",
+      "title": "Ben & Jerry's en de White Mountains",
       "loc": "North Conway",
-      "travel": "Rijdag door Vermont en New Hampshire",
+      "travel": "Rijdag via Ben & Jerry's naar New Hampshire",
       "transport": {
         "mode": "auto",
         "from": "Stowe",
         "to": "North Conway",
-        "distance": "ca. 185 km",
-        "duration": "ca. 3 uur",
-        "detail": null
+        "distance": "ca. 205 km",
+        "duration": "ca. 3–3,5 uur",
+        "detail": "Via Ben & Jerry's in Waterbury (15 minuten van Stowe); reken extra tijd voor de rondleiding"
       },
-      "desc": "Doe rustig aan als je naar je hotel in North Conway rijdt, want de natuur van New Hampshire is de reden dat je hier bent: groene bossen zover je kunt kijken, met daarachter de toppen van de White Mountains. Bergrivieren kabbelen onder de bruggen door en eekhoorntjes schieten weg tussen de takken.",
+      "desc": "Na het ontbijt rijd je over de beroemde scenic Route 100, ook wel de hoofdstraat van Vermont genoemd, naar de Ben & Jerry's Factory in Waterbury. Wist je dat dit ijsmerk, inmiddels over de hele wereld bekend, begon in een verbouwd tankstation in Vermont? Daarna rijd je verder naar North Conway, waar de natuur van New Hampshire de reden is dat je hier bent: groene bossen zover je kunt kijken, met daarachter de toppen van de White Mountains.",
       "todo": [
-        "Rit door Vermont en New Hampshire",
-        "Inchecken in de Inn",
-        "Wandelen langs Diana's Bath"
+        "Route 100 naar Waterbury",
+        "Rondleiding bij Ben & Jerry's (ca. een half uur) en ijs proeven",
+        "Doorrijden naar North Conway en inchecken in de Inn"
       ],
       "stop": 5,
       "night": "1/2",
-      "notes": "Als je eenmaal bent ingecheckt kun je de omgeving verkennen. Ga etalages kijken in het knusse dorp North Conway, of maak een wandeltocht door de natuur, bijvoorbeeld langs de watervallen van Diana's Bath. Als je je zwemspullen meeneemt, kun je hier zelfs even 'in bad'.",
+      "notes": "Bij Ben & Jerry's kom je ook langs de Flavour Graveyard, een begraafplaats voor de smaken die de winkels nooit hebben gehaald. Het ijsje dat je mag proeven is van Amerikaans formaat: zo groot als bij ons een gewoon bolletje. In North Conway kun je na het inchecken etalages kijken in het knusse dorp, of een wandeling maken langs de watervallen van Diana's Bath. Als je je zwemspullen meeneemt, kun je hier zelfs even 'in bad'.",
       "bouwsteen": {
         "title": "New Hampshire: White Mountains",
         "url": "https://www.riksjatravel.nl/amerika/bouwsteen/noordoost-amerika/white-mountains/"
