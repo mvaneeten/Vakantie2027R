@@ -290,17 +290,24 @@
       "date": "2027-07-14",
       "title": "Thousand Islands & Boldt Castle",
       "loc": "Kingston",
-      "travel": "Boottocht, geen lange autorit",
-      "transport": null,
+      "travel": "Naar Rockport voor de boottocht",
+      "transport": {
+        "mode": "auto",
+        "from": "Kingston",
+        "to": "Rockport",
+        "distance": "ca. 55 km",
+        "duration": "ca. een uur",
+        "detail": "Over de 1000 Island Parkway, langs het water; daarna terug naar Kingston"
+      },
       "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
       "todo": [
-        "Boottocht Lake Ontario (inbegrepen)",
-        "Boldt Castle vanaf het water",
-        "Farmer's Market in Kingston"
+        "Over de 1000 Island Parkway naar Rockport",
+        "Boottocht vanuit Rockport (inbegrepen)",
+        "Boldt Castle vanaf het water"
       ],
       "stop": 2,
       "night": "2/2",
-      "notes": "De Farmer's Market op de Grote Markt in Kingston is open van maandag t/m vrijdag tussen 09.00 en 17.00 uur.",
+      "notes": "De boottocht vertrekt vanuit Rockport, omdat die door het mooiste deel vaart: het hart van de Thousand Islands. Neem de 1000 Island Parkway, die je helemaal langs het water voert; in een klein uurtje ben je er. De Farmer's Market op de Grote Markt in Kingston is open van maandag t/m vrijdag tussen 09.00 en 17.00 uur.",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
