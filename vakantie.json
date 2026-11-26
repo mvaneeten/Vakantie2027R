@@ -66,7 +66,7 @@
       },
       "photo": "kingston",
       "hotel": "Eenvoudig hotel in Kingston",
-      "hotelDescription": "Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston. Hier bevindt zich de oudste Farmer's Market van Canada.",
+      "hotelDescription": "Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
       "included": "Overnachtingen in eenvoudig hotel en boottocht Lake Ontario"
     },
     {
@@ -270,7 +270,7 @@
         "duration": "ca. 4,5–5 uur",
         "detail": null
       },
-      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston, een van de oudste steden van Canada.",
+      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston.",
       "todo": [
         "Rit langs Lake Ontario",
         "Inchecken in Kingston",
@@ -278,7 +278,7 @@
       ],
       "stop": 2,
       "night": "1/2",
-      "notes": "In Kingston bevindt zich de oudste Farmer's Market van Canada. De markt is van maandag t/m vrijdag tussen 09.00 en 17.00 uur op de Grote Markt in Kingston. Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
+      "notes": "Hier bevindt zich de oudste Farmer's Market van Canada. De markt is van maandag t/m vrijdag tussen 09.00 en 17.00 uur op de Grote Markt in Kingston. Leuk weetje is dat de Thousand Island dressing vernoemd is naar dit gebied!",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
@@ -294,13 +294,13 @@
       "transport": null,
       "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
       "todo": [
-        "Boottocht door de Thousand Islands (inbegrepen)",
+        "Boottocht Lake Ontario (inbegrepen)",
         "Boldt Castle vanaf het water",
         "Farmer's Market in Kingston"
       ],
       "stop": 2,
       "night": "2/2",
-      "notes": "De boottocht met gids duurt ongeveer twee uur. Je hoort over de scheepvaart op de Grote Meren, scheepswrakken en het ontstaan van de Thousand Island dressing. Op de terugweg of in de middag kun je nog langs de Farmer's Market (ma t/m vr, 09.00–17.00 uur) op de Grote Markt in Kingston.",
+      "notes": "De Farmer's Market op de Grote Markt in Kingston is open van maandag t/m vrijdag tussen 09.00 en 17.00 uur.",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
