@@ -19,7 +19,7 @@
     "hotelNotice": "Het voorstel noemt nog geen hotelnamen. Voor 4 personen worden twee tweepersoonskamers gereserveerd; heb je een voorkeur voor aparte bedden, geef dit dan door."
   },
   "route": {
-    "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Rockport,+Ontario/Montreal,+Quebec/Stowe,+VT/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
+    "googleMapsUrl": "https://www.google.com/maps/dir/Toronto+Pearson+Airport/Niagara+Falls,+Ontario/Kingston,+Ontario/Montreal,+Quebec/Stowe,+VT/North+Conway,+NH/Bar+Harbor,+ME/Falmouth,+MA/Boston+Logan+Airport/",
     "distanceLabel": "± 2.200 km met de huurauto · rijtijden berekend via OpenStreetMap, zonder pauzes en verkeer",
     "lineDescription": "De stippellijn verbindt de verblijfplaatsen; van Boston naar New York reis je met de trein. Rijtijden zijn indicatief."
   },
@@ -55,18 +55,18 @@
       "included": "Overnachting in centraal gelegen hotel en boottocht op de Hornblower"
     },
     {
-      "name": "Rockport",
+      "name": "Kingston",
       "sub": "Thousand Islands · Ontario · Canada",
-      "lat": 44.3812,
-      "lon": -75.9375,
+      "lat": 44.2312,
+      "lon": -76.486,
       "nights": 2,
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
       },
-      "photo": "boldt",
-      "hotel": "Motel aan het water in Rockport",
-      "hotelDescription": "Een comfortabel motel aan de oever van de Saint Lawrence in Rockport, de meeste kamers met uitzicht op het water. Er is een restaurant bij het motel en de boottocht door de Thousand Islands vertrekt vlak bij.",
+      "photo": "kingston",
+      "hotel": "Eenvoudig hotel in Kingston",
+      "hotelDescription": "Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston. Hier bevindt zich de oudste Farmer's Market van Canada.",
       "included": "Overnachtingen in eenvoudig hotel en boottocht Lake Ontario"
     },
     {
@@ -259,26 +259,26 @@
     {
       "n": 4,
       "date": "2027-07-13",
-      "title": "Niagara Falls → Thousand Islands",
-      "loc": "Rockport",
-      "travel": "Rijdag langs Lake Ontario, via Kingston",
+      "title": "Niagara Falls → Kingston",
+      "loc": "Kingston",
+      "travel": "Rijdag langs Lake Ontario",
       "transport": {
         "mode": "auto",
         "from": "Niagara Falls",
-        "to": "Rockport",
-        "distance": "ca. 445 km",
-        "duration": "ca. 5–5,5 uur",
-        "detail": "Via Kingston, een fijne plek voor een lunchstop"
+        "to": "Kingston",
+        "distance": "ca. 390 km",
+        "duration": "ca. 4,5–5 uur",
+        "detail": null
       },
-      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Onderweg stop je in Kingston, een van de oudste steden van Canada. Je slaapt twee nachten in een comfortabel motel aan het water in Rockport.",
+      "desc": "Je volgende stop is het 1000 eilanden gebied. De eilanden liggen in Lake Ontario in de buurt van de St. Lawrence rivier op de grens van de VS en Canada. Tijdens je verblijf slaap je in een eenvoudig maar comfortabel hotel in Kingston, een van de oudste steden van Canada.",
       "todo": [
         "Rit langs Lake Ontario",
-        "Lunchstop in Kingston",
-        "Inchecken in Rockport, met uitzicht op het water"
+        "Inchecken in Kingston",
+        "Avond aan de waterkant"
       ],
       "stop": 2,
       "night": "1/2",
-      "notes": "Kingston heeft de oudste Farmer's Market van Canada, en verder lokale brouwerijen en boetiekjes. Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
+      "notes": "In Kingston bevindt zich de oudste Farmer's Market van Canada. De markt is van maandag t/m vrijdag tussen 09.00 en 17.00 uur op de Grote Markt in Kingston. Leuk weetje: de Thousand Island dressing is vernoemd naar dit gebied!",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
@@ -289,18 +289,18 @@
       "n": 5,
       "date": "2027-07-14",
       "title": "Thousand Islands & Boldt Castle",
-      "loc": "Rockport",
+      "loc": "Kingston",
       "travel": "Boottocht, geen lange autorit",
       "transport": null,
       "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
       "todo": [
-        "Boottocht vanuit Rockport (inbegrepen, ca. 2 uur)",
+        "Boottocht door de Thousand Islands (inbegrepen)",
         "Boldt Castle vanaf het water",
-        "Thousand Island dressing proeven"
+        "Farmer's Market in Kingston"
       ],
       "stop": 2,
       "night": "2/2",
-      "notes": "De boottocht met gids vertrekt een paar keer per dag vanuit Rockport en duurt ongeveer twee uur. Je hoort over de scheepvaart op de Grote Meren, scheepswrakken en het ontstaan van de Thousand Island dressing. De rest van de dag kun je genieten van het uitzicht vanaf het motel.",
+      "notes": "De boottocht met gids duurt ongeveer twee uur. Je hoort over de scheepvaart op de Grote Meren, scheepswrakken en het ontstaan van de Thousand Island dressing. Op de terugweg of in de middag kun je nog langs de Farmer's Market (ma t/m vr, 09.00–17.00 uur) op de Grote Markt in Kingston.",
       "bouwsteen": {
         "title": "Thousand Islands in Lake Ontario",
         "url": "https://www.riksjatravel.nl/canada/bouwsteen/oost-canada/thousand-islands-lake-ontario/"
@@ -315,10 +315,10 @@
       "travel": "Rijdag naar Québec",
       "transport": {
         "mode": "auto",
-        "from": "Rockport",
+        "from": "Kingston",
         "to": "Montréal",
-        "distance": "ca. 245 km",
-        "duration": "ca. 3–3,5 uur",
+        "distance": "ca. 295 km",
+        "duration": "ca. 3,5–4 uur",
         "detail": null
       },
       "desc": "Vervolgens staat de metropool Montréal op het programma. Bij aankomst vallen de hoge gebouwen wel op maar de oude stad heeft zeker de Franse charme. Wandel door de kleine steegjes met kinderkopjes, je waant je echt in Parijs! Bezoek de leuke boetiekjes en de vele gezellige restaurants en cafés.",
