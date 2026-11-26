@@ -95,7 +95,7 @@ function renderVacation(data) {
   const calendar = document.getElementById('calendar');
   calendar.innerHTML = cal;
 
-  const legs = days.filter(d => d.transport);
+  const legs = days.filter(d => d.transport && !d.transport.dayTrip);
   document.getElementById('legs').innerHTML = legs.map(d => {
     const t = d.transport;
     return `<button type="button" class="leg" data-day="${d.n}" style="--c:${dayColor(d)}">

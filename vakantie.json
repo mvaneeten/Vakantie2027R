@@ -297,7 +297,8 @@
         "to": "Rockport",
         "distance": "ca. 55 km",
         "duration": "ca. een uur",
-        "detail": "Over de 1000 Island Parkway, langs het water; daarna terug naar Kingston"
+        "detail": "Over de 1000 Island Parkway, langs het water; daarna terug naar Kingston",
+        "dayTrip": true
       },
       "desc": "Er zijn meer dan 1500 grote en kleine eilanden, sommige zijn onbewoond en op anderen staan de prachtigste huizen. Op een van de eilanden staat het Boldt kasteel. Tijdens de boottocht die gepland staat, vaar je hier langs. Het kasteel is geheel in middeleeuwse stijl gebouwd, bijzonder om dit te zien opdoemen midden op het meer.",
       "todo": [
